@@ -1,0 +1,1297 @@
+format-version: 1.2
+date: 11:10:2018 11:55
+saved-by: CARD
+auto-generated-by: cv2obo
+default-namespace: virulence_ontology
+ontology: virulence_ontology
+
+[Term]
+id: VIRO:0000001
+name: process or component of pathogenesis biology or chemistry
+namespace: virulence_ontology
+def: "The set of specific processes that generate the ability of an organism to cause disease in another." []
+
+[Term]
+id: VIRO:0000002
+name: molecular mechanism of bacterial virulence
+namespace: virulence_ontology
+def: "Bacteria use an array of virulence factors to cause disease in the human host through mechanistic interactions between the host and pathogen proteins." []
+is_a: VIRO:0000001 ! process or component of pathogenesis biology or chemistry
+
+[Term]
+id: VIRO:0000003
+name: adhesion
+namespace: virulence_ontology
+def: "Adhesion is the process by which bacteria uses cell-surface components or appendages to attach to other cells or to surfaces" []
+is_a: VIRO:0000002 ! molecular mechanism of bacterial virulence
+
+[Term]
+id: VIRO:0000004
+name: colonization
+namespace: virulence_ontology
+def: "Colonization is the presence and multiplication of microorganisms at a particular site within the host." []
+is_a: VIRO:0000002 ! molecular mechanism of bacterial virulence
+
+[Term]
+id: VIRO:0000005
+name: immunoevasion
+namespace: virulence_ontology
+def: "Immunoevasion is a mechanism used by pathogenic organisms to evade a host's immune response or protect pathogens from host defenses" []
+is_a: VIRO:0000002 ! molecular mechanism of bacterial virulence
+
+[Term]
+id: VIRO:0000006
+name: immunosuppression
+namespace: virulence_ontology
+def: "Immunosuppression is a mechanism used by pathogenic organisms to reduce the activation or efficacy of the host immune system" []
+is_a: VIRO:0000002 ! molecular mechanism of bacterial virulence
+
+[Term]
+id: VIRO:0000007
+name: invasion
+namespace: virulence_ontology
+def: "Invasion is the process by which pathogenic organisms disrupt the host membranes and stimulate endocytosis to allow entry into host cells." []
+is_a: VIRO:0000002 ! molecular mechanism of bacterial virulence
+
+[Term]
+id: VIRO:0000008
+name: host cell damaging
+namespace: virulence_ontology
+def: "Mechanism used by pathogenic organisms uses toxins that poison the host cells and cause tissue damage" []
+is_a: VIRO:0000002 ! molecular mechanism of bacterial virulence
+
+[Term]
+id: VIRO:0000009
+name: iron acquisition
+namespace: virulence_ontology
+def: "Process by which virulence factors (siderophores) binds and transports iron in microorganisms." []
+is_a: VIRO:0000002 ! molecular mechanism of bacterial virulence
+
+[Term]
+id: VIRO:0000018
+name: virulence factor
+namespace: virulence_ontology
+def: "Virulence factors are gene products that enable a microorganism to establish itself on or within a host of a particular species and enhance its potential to cause disease." []
+is_a: VIRO:0000001 ! process or component of pathogenesis biology or chemistry
+relationship: participates_in VIRO:0000002 ! molecular mechanism of bacterial virulence
+
+[Term]
+id: VIRO:0000019
+name: adhesin
+namespace: virulence_ontology
+def: "Adhesins attach microbes to their host" []
+is_a: VIRO:0000018 ! virulence factor
+is_a: VIRO:0000165 ! YadA
+is_a: VIRO:0000167 ! Ail
+relationship: participates_in VIRO:0000003 ! adhesion
+
+[Term]
+id: VIRO:0000020
+name: invasin
+namespace: virulence_ontology
+def: "Invasins disrupt the host membrane and stimulate endocytosis" []
+is_a: VIRO:0000018 ! virulence factor
+is_a: VIRO:0000166 ! InvA
+relationship: participates_in VIRO:0000004 ! colonization
+
+[Term]
+id: VIRO:0000021
+name: colonization factor
+namespace: virulence_ontology
+def: "colonization factors enable certain bacteria to colonize within host cells." []
+is_a: VIRO:0000018 ! virulence factor
+relationship: participates_in VIRO:0000007 ! invasion
+
+[Term]
+id: VIRO:0000022
+name: surface protein
+namespace: virulence_ontology
+def: "Surface proteins protect pathogens from host immune defenses" []
+is_a: VIRO:0000018 ! virulence factor
+relationship: participates_in VIRO:0000005 ! immunoevasion
+
+[Term]
+id: VIRO:0000023
+name: toxin
+namespace: virulence_ontology
+def: "toxins poison the host cells and cause tissue damage." []
+is_a: VIRO:0000018 ! virulence factor
+relationship: participates_in VIRO:0000008 ! host cell damaging
+
+[Term]
+id: VIRO:0000024
+name: siderophore
+namespace: virulence_ontology
+def: "Siderophores take up iron from host." []
+is_a: VIRO:0000018 ! virulence factor
+relationship: participates_in VIRO:0000009 ! iron acquisition
+
+[Term]
+id: VIRO:0000025
+name: immune response inhibitor
+namespace: virulence_ontology
+def: "Immune response inhibitors suppress hosts' immune defenses." []
+is_a: VIRO:0000018 ! virulence factor
+relationship: participates_in VIRO:0000006 ! immunosuppression
+
+[Term]
+id: VIRO:0000026
+name: toxin transporter
+namespace: virulence_ontology
+def: "Toxin transporters transport virulence factors to the cell surface and into the surrounding environment." []
+is_a: VIRO:0000018 ! virulence factor
+relationship: participates_in VIRO:0000008 ! host cell damaging
+
+[Term]
+id: VIRO:0000027
+name: toxin A
+namespace: virulence_ontology
+def: "Clostridium difficile toxin A is a toxin generated by Clostridium difficile." [PMID:15831824]
+is_a: VIRO:0000023 ! toxin
+synonym: "TcdA" EXACT []
+xref: PDB:2G7C
+
+[Term]
+id: VIRO:0000028
+name: toxin B
+namespace: virulence_ontology
+def: "Clostridium difficile toxin B is a toxin generated by Clostridium difficile." [PMID:15831824]
+is_a: VIRO:0000023 ! toxin
+synonym: "TcdB" EXACT []
+xref: PDB:2BVM
+
+[Term]
+id: VIRO:0000029
+name: clostridium difficile toxin subunit a
+namespace: virulence_ontology
+def: "Not to be confused with 'toxin A' (TcdA). Clostridium difficile toxin subunit a (CtdA) is the ADP-ribosyltransferase component of the Clostridium difficile toxin (CDT). ADP-ribosylation induces depolymerization of the actin cytoskeleton." [PMID:19692332]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000051 ! Clostridium difficile toxin
+
+[Term]
+id: VIRO:0000030
+name: clostridium difficile toxin subunit b
+namespace: virulence_ontology
+def: "Not to be confused with 'toxin B' (TcdB). Clostridium difficile toxin subunit b (CTDb) binds to host cells and translocates CDTa (ADP-ribosyltransferase component of the Clostridium difficile toxin) into the cytosol. CDTb is activated by serine proteases and binds to lipolysis stimulated lipoprotein receptor." [PMID:15353562]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000051 ! Clostridium difficile toxin
+
+[Term]
+id: VIRO:0000031
+name: Acm
+namespace: virulence_ontology
+def: "Acm is a collagen adhesin precursor produced by Enterococcus faecium. This adhesin interacts with collagen type I and to a lesser extent with collagen type IV." [PMID:18591238, PMID:12622825, PMID:18591236]
+is_a: VIRO:0000019 ! adhesin
+
+[Term]
+id: VIRO:0000032
+name: EcbA
+namespace: virulence_ontology
+def: "EcbA is a collagen adhesin produced by Enterococcus faecium. This adhesin binds to collagen type V" [PMID:19737906]
+is_a: VIRO:0000019 ! adhesin
+
+[Term]
+id: VIRO:0000033
+name: Scm
+namespace: virulence_ontology
+def: "Scm is a collagen adhesin produced by Enterococcus faecium. Also known as second collagen adhesin of E. faecium, this adhesin binds to collagen type V and fibrinogen" [PMID:18832325]
+is_a: VIRO:0000019 ! adhesin
+synonym: "Fms10" EXACT []
+
+[Term]
+id: VIRO:0000034
+name: SgrA
+namespace: virulence_ontology
+def: "SgrA, or Serine glutamate repeat A, is an LPxTG (Leu-Pro-any-Thr-Gly) surface adhesin that binds to fibrinogen and nidogen." [PMID:19737906, PMID:23545655]
+is_a: VIRO:0000019 ! adhesin
+
+[Term]
+id: VIRO:0000035
+name: Asa1
+namespace: virulence_ontology
+def: "Asa1 is an aggregation substance encoded on pheromone-inducible conjugative plasmid pTEF1Asa1 from Enterococcus faecalis that has been implicated in binding to components of the extracellular matrix such as fibrin, fibronectin, thrombospondin, vitronectin and collagen type I." [PMID:19042153]
+is_a: VIRO:0000019 ! adhesin
+
+[Term]
+id: VIRO:0000036
+name: Asc10
+namespace: virulence_ontology
+def: "Asc1 is an aggregation substance encoded on pheromone-inducible conjugative plasmid pTEF2 from Enterococcus faecalis that has been implicated in binding to components of the extracellular matrix such as fibrin, fibronectin, thrombospondin, vitronectin and collagen type I." [PMID:18955479]
+is_a: VIRO:0000019 ! adhesin
+synonym: "PrgB" EXACT []
+
+[Term]
+id: VIRO:0000037
+name: Ace
+namespace: virulence_ontology
+def: "Ace (adhesin to collagen of E. faecalis) is a microbial surface component recognizing adhesive matrix molecules (MSCRAMM) from Enterococcus faecalis. Ace mediates binding to immobilized collagen type I, collagen type IV, and mouse laminin." [PMID:16926389, PMID:20072611]
+is_a: VIRO:0000019 ! adhesin
+
+[Term]
+id: VIRO:0000038
+name: Ebp pili
+namespace: virulence_ontology
+def: "Ebp pili are important for adherence to host extracellular matrix proteins, including fibrinogen and collagen and play a role in biofilm formation" [PMID:17016560]
+is_a: VIRO:0000019 ! adhesin
+relationship: participates_in VIRO:0000039 ! biofilm formation
+
+[Term]
+id: VIRO:0000039
+name: biofilm formation
+namespace: virulence_ontology
+def: "Biofilm formation is a process whereby microorganisms irreversibly attach to and grow on a surface and produce extracellular polymers that facilitate attachment and matrix formation, resulting in an alteration in the phenotype of the organisms with respect to growth rate and gene transcription." [PMID:11565080]
+is_a: VIRO:0000002 ! molecular mechanism of bacterial virulence
+
+[Term]
+id: VIRO:0000040
+name: EbpA
+namespace: virulence_ontology
+def: "EbpA is an ancillary structural protein subunit at the tip of the endocarditis and biofilm-associated Ebp pili." [PMID:26015496]
+relationship: part_of VIRO:0000038 ! Ebp pili
+
+[Term]
+id: VIRO:0000041
+name: EbpB
+namespace: virulence_ontology
+def: "EbpB is an ancillary structural protein subunit at the base of the endocarditis and biofilm-associated Ebp pili." [PMID:17471437]
+relationship: part_of VIRO:0000038 ! Ebp pili
+
+[Term]
+id: VIRO:0000042
+name: EbpC
+namespace: virulence_ontology
+def: "EbpC is the major pilin of the endocarditis and biofilm-associated Ebp pili. EbpC polymerizes and forms the fiber backbone." [PMID:23913319]
+relationship: part_of VIRO:0000038 ! Ebp pili
+
+[Term]
+id: VIRO:0000043
+name: SrtC
+namespace: virulence_ontology
+def: "SrtC is a sortase responsible for the assembly of pili and their cell wall attachment via a mechanism of cross-linking of the Ebp proteins." [PMID:23913319]
+relationship: part_of VIRO:0000038 ! Ebp pili
+
+[Term]
+id: VIRO:0000044
+name: alpha-hemolysin
+namespace: virulence_ontology
+def: "alpha-hemolysin is a toxin produced by Staphylococcus aureus that forms pores in cell membrane to kill or limit the ability of neutrophils" [PMID:21926978]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:7AHL
+
+[Term]
+id: VIRO:0000045
+name: beta-hemolysin
+namespace: virulence_ontology
+def: "beta-hemolysin is a toxin produced by Staphylococcus aureus that process hemolytic activity for erythrocytes and also plays an important role in skin colonization by damaging keratinocytes" [PMID:10627489, PMID:23292775]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:3I46
+
+[Term]
+id: VIRO:0000046
+name: delta-hemolysin
+namespace: virulence_ontology
+def: "delta-hemolysin is a toxin produced by Staphylococcus aureus that is capable of lysing erythrocytes and other mammalian cells, as well as subcellular structures" [PMID:10627489]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000047
+name: gamma-hemolysin
+namespace: virulence_ontology
+def: "gamma-hemolysin is a type of bicomponent toxin produced by Staphylococcus aureus. Each of these toxins is made as two nonassociated secreted proteins, referred to as S and F components. The gene of γ-hemolysin produces 2 S components (HlgA and HlgC) and 1 F component (HlgB)." [PMID:9804914, PMID:10627489]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000048
+name: HlgA
+namespace: virulence_ontology
+def: "HlgA is one of the S components of γ-hemolysin. HlgA may combine with any of the F components (HlgB or LukF-PV) produced by Staphylococcus aureus to form an active toxin molecule." [PMID:10627489, PMID:9804914]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000047 ! gamma-hemolysin
+
+[Term]
+id: VIRO:0000049
+name: HlgC
+namespace: virulence_ontology
+def: "HlgC is one of the S components of γ-hemolysin. HlgC may combine with any of the F components (HlgB or LukF-PV) produced by Staphylococcus aureus to form an active toxin molecule." [PMID:9804914, PMID:10627489]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000047 ! gamma-hemolysin
+
+[Term]
+id: VIRO:0000050
+name: HlgB
+namespace: virulence_ontology
+def: "HlgB is one of the F components of γ-hemolysin. HlgB may combine with any of the S components (HlgA, HlgC or LukS-PV) produced by Staphylococcus aureus to form an active toxin molecule." [PMID:10627489, PMID:9804914]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000047 ! gamma-hemolysin
+xref: PDB:1LKF
+
+[Term]
+id: VIRO:0000051
+name: Clostridium difficile toxin
+namespace: virulence_ontology
+def: "CDT is an iota-like toxin consisting of CDTa and CDTb components that targets monomeric actin of the target cell." [PMID:19692332]
+is_a: VIRO:0000023 ! toxin
+relationship: participates_in VIRO:0000163 ! ADP-ribosylation
+
+[Term]
+id: VIRO:0000052
+name: exfoliative toxin
+namespace: virulence_ontology
+def: "Four antigenically distinct exfoliative toxins are identified so far: exfoliative toxin A (ETA) and B (ETB) are responsible for most human staphylococcal scalded skin syndrome. ETC was isolated from a horse with skin infection. Recently, ETD was identified as a new potential human active exofoliative toxin" [PMID:22069631]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000053
+name: exfoliative toxin A
+namespace: virulence_ontology
+def: "Exfoliative toxin A (ETA) is a heat stable toxin primarily responsible for the skin manifestation of staphylococcal scalded skin syndrome and bullous impetigo." [PMID:10194458]
+is_a: VIRO:0000052 ! exfoliative toxin
+xref: PDB:1DUA
+
+[Term]
+id: VIRO:0000054
+name: exfoliative toxin B
+namespace: virulence_ontology
+def: "exfoliative toxin B (ETB) is a heat sensitive toxin primarily responsible for the skin manifestation of staphylococcal scalded skin syndrome and bullous impetigo." [PMID:10194458]
+is_a: VIRO:0000052 ! exfoliative toxin
+xref: PDB:1DT2
+
+[Term]
+id: VIRO:0000055
+name: cytolysin operon
+namespace: virulence_ontology
+def: "Enterococcal cytolysin is a structurally novel bacterial toxin expressed by some strains of E. faecalis and is distantly related to the class of bacteriocins known as lantibiotics. The cytolysin can be encoded by large pheromone-responsive plasmids, or on the chromosome within pathogenicity island. It is produced by a complex process that involves the products of eight genes, designated cylR1, cylR2, cylLL, cylLS, cylM, cylB, cylA, and cylI." [PMID:15149038]
+relationship: participates_in VIRO:0000008 ! host cell damaging
+
+[Term]
+id: VIRO:0000056
+name: CylA
+namespace: virulence_ontology
+def: "CylA is a serine protease for removing the six-amino-acid sequences from N-terminus of each cytolysin subunit (CylLL' and CylLS', post modified products  of CylLL and CylLS by CylM) and generates the active toxin subunits, CylLL'' and CylLS''" [PMID:1900808]
+relationship: part_of VIRO:0000055 ! cytolysin operon
+
+[Term]
+id: VIRO:0000057
+name: CylB
+namespace: virulence_ontology
+def: "CylB proteolytically cleaved and secreted the cytolysin subunits from the cell. CylB functions as an ABC transporter (C-terminal ATP-binding domain) and a signal peptidase (N-terminal cysteine protease domain), generating CylLL' and CylLS' from CylLL and CylLS." [PMID:10377111]
+relationship: part_of VIRO:0000055 ! cytolysin operon
+
+[Term]
+id: VIRO:0000058
+name: CylI
+namespace: virulence_ontology
+def: "The cylI gene product protects the cytolysin-producing bacterium from lysis, though the mechanisms is still unknown" [PMID:10377111]
+relationship: part_of VIRO:0000055 ! cytolysin operon
+
+[Term]
+id: VIRO:0000059
+name: CylL
+namespace: virulence_ontology
+def: "Cytolysin is comprised of two nonidentical peptide subunits: CylLL(the long subunit) and CylLS (the short subunit), both of which are required for lytic activity" [PMID:10377111]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000064 ! cytolysin
+
+[Term]
+id: VIRO:0000060
+name: CylS
+namespace: virulence_ontology
+def: "Cytolysin is comprised of two nonidentical peptide subunits: CylLL(the long subunit) and CylLS (the short subunit), both of which are required for lytic activity" [PMID:10377111]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000064 ! cytolysin
+
+[Term]
+id: VIRO:0000061
+name: CylM
+namespace: virulence_ontology
+def: "CylM posttranslationally modifies the CylLL and CylLS precursors." [PMID:10377111]
+relationship: part_of VIRO:0000055 ! cytolysin operon
+
+[Term]
+id: VIRO:0000062
+name: CylR1
+namespace: virulence_ontology
+def: "Cytolysin operon-encoded regulatory proteins, CylR1 and CylR2, cooperatively repress toxin expression" [PMID:15618522]
+relationship: part_of VIRO:0000055 ! cytolysin operon
+
+[Term]
+id: VIRO:0000063
+name: CylR2
+namespace: virulence_ontology
+def: "Cytolysin operon-encoded regulatory proteins, CylR1 and CylR2, cooperatively repress toxin expression" [PMID:15618522]
+relationship: part_of VIRO:0000055 ! cytolysin operon
+
+[Term]
+id: VIRO:0000064
+name: cytolysin
+namespace: virulence_ontology
+def: "Enterococcal cytolysin is a structurally novel bacterial toxin expressed by some strains of E. faecalis and is distantly related to the class of bacteriocins known as lantibiotics. Cytolysin is capable of lysing erythrocytes, polymorphonuclear leukocytes and macrophages, as well as a broad range of gram-positive bacteria" [PMID:15149038]
+is_a: VIRO:0000023 ! toxin
+relationship: part_of VIRO:0000055 ! cytolysin operon
+
+[Term]
+id: VIRO:0000065
+name: Panton-Valentine Leukocidin
+namespace: virulence_ontology
+def: "Panton-Valentine Leukocidin (PVL) is a pore-forming toxin. Together with γ-hemolysin and other leukocidins such as LukE-LukD, PVL belongs to the family of bicomponent synergohymenotropic toxins." [PMID:23551699]
+is_a: VIRO:0000023 ! toxin
+synonym: "PVL" EXACT []
+xref: PDB:1PVL
+
+[Term]
+id: VIRO:0000066
+name: LukF-PV
+namespace: virulence_ontology
+def: "Panton-Valentine leukocidin chain F precursor" [PMID:19374556]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000065 ! Panton-Valentine Leukocidin
+
+[Term]
+id: VIRO:0000067
+name: LukS-PV
+namespace: virulence_ontology
+def: "Panton-Valentine leukocidin chain S precursor" [PMID:19374556]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000065 ! Panton-Valentine Leukocidin
+
+[Term]
+id: VIRO:0000068
+name: toxic shock syndrome toxin-1
+namespace: virulence_ontology
+def: "Toxic shock syndrome toxin-1 is a potent superantigen produced by Staphylococcus aureus." [PMID:9720870]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000069
+name: Staphylococcal enterotoxin
+namespace: virulence_ontology
+def: "Staphylococcal enterotoxin constitutes a family of eight single-chain polypeptides toxins responsible for the symptoms of food poisoning. They can be divided into two groups based on amino acid sequence homology: the first group consists of SEA,SEE, SED and SEH, and the second group including SEB, SEC, SEG." [PMID:10627489]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000070
+name: Staphylococcal enterotoxin A
+namespace: virulence_ontology
+def: "Staphylococcal enterotoxins are prototype superantigens characterized by their ability to bind to major histocompatibility complex (MHC) class II molecules and subsequently activate a large fraction of T-lymphocytes." [PMID:7628431]
+is_a: VIRO:0000069 ! Staphylococcal enterotoxin
+xref: PDB:1ESF
+
+[Term]
+id: VIRO:0000071
+name: Staphylococcal enterotoxin B
+namespace: virulence_ontology
+def: "Staphylococcal enterotoxin B is a member of a family of toxins known as superantigens that activate a large number of T-cells (up to 20%) by cross-linking MHC class II molecules with T-cell receptors in a Vbeta-restricted fashion. " [PMID:9514739]
+is_a: VIRO:0000069 ! Staphylococcal enterotoxin
+xref: PDB:3SEB
+
+[Term]
+id: VIRO:0000072
+name: Staphylococcal enterotoxins C1
+namespace: virulence_ontology
+def: "Staphylococcal enterotoxins are prototype superantigens characterized by their ability to bind to major histocompatibility complex (MHC) class II molecules and subsequently activate a large fraction of T-lymphocytes." [PMID:2823067]
+is_a: VIRO:0000069 ! Staphylococcal enterotoxin
+
+[Term]
+id: VIRO:0000118
+name: Staphylococcal enterotoxin C3
+namespace: virulence_ontology
+def: "Staphylococcal enterotoxins are prototype superantigens characterized by their ability to bind to major histocompatibility complex (MHC) class II molecules and subsequently activate a large fraction of T-lymphocytes." [PMID:2325627]
+is_a: VIRO:0000069 ! Staphylococcal enterotoxin
+
+[Term]
+id: VIRO:0000073
+name: Staphylococcal enterotoxin D
+namespace: virulence_ontology
+def: "Staphylococcal enterotoxins are prototype superantigens characterized by their ability to bind to major histocompatibility complex (MHC) class II molecules and subsequently activate a large fraction of T-lymphocytes." [PMID:2549000]
+is_a: VIRO:0000069 ! Staphylococcal enterotoxin
+
+[Term]
+id: VIRO:0000074
+name: Staphylococcal enterotoxin E
+namespace: virulence_ontology
+def: "Staphylococcal enterotoxins are prototype superantigens characterized by their ability to bind to major histocompatibility complex (MHC) class II molecules and subsequently activate a large fraction of T-lymphocytes." [PMID:3384800]
+is_a: VIRO:0000069 ! Staphylococcal enterotoxin
+
+[Term]
+id: VIRO:0000075
+name: Staphylococcal enterotoxin H
+namespace: virulence_ontology
+def: "Staphylococcal enterotoxins are prototype superantigens characterized by their ability to bind to major histocompatibility complex (MHC) class II molecules and subsequently activate a large fraction of T-lymphocytes." [PMID:12044378]
+is_a: VIRO:0000069 ! Staphylococcal enterotoxin
+
+[Term]
+id: VIRO:0000076
+name: Staphylococcal enterotoxin K
+namespace: virulence_ontology
+def: "Staphylococcal enterotoxins are prototype superantigens characterized by their ability to bind to major histocompatibility complex (MHC) class II molecules and subsequently activate a large fraction of T-lymphocytes." [PMID:12044378]
+is_a: VIRO:0000069 ! Staphylococcal enterotoxin
+
+[Term]
+id: VIRO:0000077
+name: Staphylococcal enterotoxin Q
+namespace: virulence_ontology
+def: "Staphylococcal enterotoxins are prototype superantigens characterized by their ability to bind to major histocompatibility complex (MHC) class II molecules and subsequently activate a large fraction of T-lymphocytes." [PMID:12044378]
+is_a: VIRO:0000069 ! Staphylococcal enterotoxin
+
+[Term]
+id: VIRO:0000078
+name: exotoxin A
+namespace: virulence_ontology
+def: "The Pseudomonas exotoxin (or exotoxin A) is an ADP-ribosylating exotoxin produced by Pseudomonas aeruginosa" [PMID:16107839]
+is_a: VIRO:0000023 ! toxin
+synonym: "ToxA" EXACT []
+
+[Term]
+id: VIRO:0000079
+name: exoenzyme S
+namespace: virulence_ontology
+def: "Pseudomonas aeruginosa Exoenzyme S (ExoS) is a bifunctional type-III cytotoxin. It inhibits Rho GTPase family signalling, paralysing macrophages, and inhibits phagocytosis" [PMID:11821389]
+is_a: VIRO:0000023 ! toxin
+synonym: "ExoS" EXACT []
+
+[Term]
+id: VIRO:0000080
+name: exoenzyme T
+namespace: virulence_ontology
+def: "The Pseudomonas aeruginosa exoenzyme T (ExoT) is a bacterial GTPase-activating protein (GAP) contributes to actin cytoskeleton disruption" [PMID:11895987]
+is_a: VIRO:0000023 ! toxin
+synonym: "ExoT" EXACT []
+
+[Term]
+id: VIRO:0000081
+name: exoenzyme U
+namespace: virulence_ontology
+def: "Pseudomonas aeruginosa exoenzyme U (ExoU) is an acute cytotoxin associated with lung injury, bacterial dissemination and sepsis in animal model and human infections." [PMID:9302017]
+is_a: VIRO:0000023 ! toxin
+synonym: "ExoU" EXACT []
+
+[Term]
+id: VIRO:0000082
+name: exoenzyme Y
+namespace: virulence_ontology
+def: "Exoenzyme Y is a toxin of Pseudomonas aeruginosa with adenylate cyclase activity that elevates the intracellular cAMP levels." [PMID:9811898]
+is_a: VIRO:0000023 ! toxin
+synonym: "ExoY" EXACT []
+
+[Term]
+id: VIRO:0000083
+name: Pseudomonas aeruginosa phospholipase C
+namespace: virulence_ontology
+def: "Phospholipase C suppresses neutrophil respiratory burst activity and thus facilitate chronic persistent infection by Pseudomonas aeruginosa." [PMID:10225897]
+is_a: VIRO:0000023 ! toxin
+synonym: "PlcH" EXACT []
+
+[Term]
+id: VIRO:0000084
+name: aerolysin
+namespace: virulence_ontology
+def: "Aerolysin is a pore-forming toxin from Aeromonas hydrophila responsible for the hemolytic, cytotoxic, and enterotoxic activities" [PMID:23912165]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:1PRE
+
+[Term]
+id: VIRO:0000085
+name: Aeromonas hydrophila RtxA
+namespace: virulence_ontology
+def: "The repeat in toxin A(RtxA) is a toxin produced by Aeromonas hydrophila that disrupted the actin cytoskeleton and induce host cell apoptosis" [PMID:22814176]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000086
+name: anthrolysin O
+namespace: virulence_ontology
+def: "Anthrolysin O is a pore-forming toxin from Bacillus anthracis that has lytic activity against phagocytes and decreases the barrier function of human polarized epithelial cells" [PMID:20188700]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000087
+name: anthrax toxin
+namespace: virulence_ontology
+def: "The anthrax toxin is composed of a single B subunit called protective antigen (PA) and two alternative A subunits: edema factor (EF) and lethal factor (LF). The lethal toxin (PA+LF) provokes a subit death in animals, the edema toxin (PA+EF) induces edema." [PMID:11595637]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000088
+name: edema factor
+namespace: virulence_ontology
+def: "Edema factor (EF) is a calcium- and calmodulin-dependent adenylate cyclase that causes dramatic increases in intracellular concentrations of cAMP" [PMID:10515943]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000087 ! anthrax toxin
+
+[Term]
+id: VIRO:0000089
+name: lethal factor
+namespace: virulence_ontology
+def: "LF is a zinc-dependent protease that cleaves mitogen-activated protein kinase kinases (MAPKKs) in their amino-terminal regions. It induces the cytokine-independent shock-like death associated with anthrax." [PMID:10515943]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000087 ! anthrax toxin
+
+[Term]
+id: VIRO:0000090
+name: protective antigen
+namespace: virulence_ontology
+def: "The protective antigen forms a oligomer that creates a membrane-spanning channel that LF and EF translocate through to enter the cytosol" [PMID:19627991]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000087 ! anthrax toxin
+
+[Term]
+id: VIRO:0000091
+name: cytotoxin K
+namespace: virulence_ontology
+def: "Cytotoxin K from Bacillus cereus belongs to the family of oligomeric β-barrel pore-forming toxins. Cytotoxin K may be responsible for a disease that is similar to, although not as severe as, the necrotic enteritis caused by the beta-toxin of C. perfringens type C" [PMID:11069652]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000092
+name: haemolysin BL
+namespace: virulence_ontology
+def: "Hemolysin BL (HBL) is a well-characterized Bacillus cereus toxin composed of three components (B, L1, and L2) that together possess hemolytic, cytotoxic, dermonecrotic, and vascular permeability activities." [PMID:7591080]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000093
+name: HBL-B
+namespace: virulence_ontology
+def: "HBL-L1 is a component of Hemolysin BL, a membrane-lytic toxin from Bacillus cereus. HBL-B is the only protein able to associate productively with the cell membrane, and this binding is followed by the ordered recruitment of first L1 and then L2.The membrane-associated HBL components form a membrane attack complex that causes lysis by a colloid osmotic mechanism." [PMID:8995253]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000092 ! haemolysin BL
+
+[Term]
+id: VIRO:0000094
+name: HBL-L1
+namespace: virulence_ontology
+def: "HBL-L1 is a component of Hemolysin BL, a membrane-lytic toxin from Bacillus cereus. HBL-B first binds to the cell membrane, followed by the ordered recruitment of first L1 and then L2.The membrane-associated HBL components form a membrane attack complex that causes lysis by a colloid osmotic mechanism" [PMID:7591080]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000092 ! haemolysin BL
+
+[Term]
+id: VIRO:0000095
+name: HBL-L2
+namespace: virulence_ontology
+def: "HBL-L2 is a component of Hemolysin BL, a membrane-lytic toxin from Bacillus cereus. HBL-B first binds to the cell membrane, followed by the ordered recruitment of first L1 and then L2.The membrane-associated HBL components form a membrane attack complex that causes lysis by a colloid osmotic mechanism" [PMID:7591080]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000092 ! haemolysin BL
+
+[Term]
+id: VIRO:0000096
+name: nonhemolytic enterotoxin
+namespace: virulence_ontology
+def: "Nonhemolytic enterotoxin (Nhe) from Bacillus cereus is a tripartite pore-forming toxin that require the combined action of the three proteins a cytolytic protein NheA, and two binding components NheB and NheC. Nhe possess hemolytic, cytotoxic, dermonecrotic, and vascular permeability activities." [PMID:18310016]
+is_a: VIRO:0000023 ! toxin
+synonym: "Nhe" EXACT []
+
+[Term]
+id: VIRO:0000097
+name: NheA
+namespace: virulence_ontology
+def: "NheA is a cytolytic protein component of nonhemolytic enterotoxin. Along with two binding components NheB and NheC, nonhemolytic enterotoxin is a pore-forming toxin possesses hemolytic, cytotoxic, dermonecrotic, and vascular permeability activities" [PMID:18310016]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000096 ! nonhemolytic enterotoxin
+
+[Term]
+id: VIRO:0000098
+name: NheB
+namespace: virulence_ontology
+def: "NheB is a binding component of nonhemolytic enterotoxin. Along with another binding components NheC and  cytolytic protein component NheA, nonhemolytic enterotoxin is a pore-forming toxin possesses hemolytic, cytotoxic, dermonecrotic, and vascular permeability activities" [PMID:18310016]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000096 ! nonhemolytic enterotoxin
+
+[Term]
+id: VIRO:0000099
+name: NheC
+namespace: virulence_ontology
+def: "NheC is a binding component of nonhemolytic enterotoxin. Along with another binding components NheB and  cytolytic protein component NheA, nonhemolytic enterotoxin is a pore-forming toxin possesses hemolytic, cytotoxic, dermonecrotic, and vascular permeability activities" [PMID:18310016]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000096 ! nonhemolytic enterotoxin
+
+[Term]
+id: VIRO:0000100
+name: adenylate cyclase toxin
+namespace: virulence_ontology
+def: "Adenylate cyclase toxin (ACT) from Bordetella pertussis is a member of the RTX (repeats in toxin) family of toxins. ACT binds cell membranes and cause disruption of the permeability barrier, leading to efflux of cell contents." [PMID:15175289]
+is_a: VIRO:0000023 ! toxin
+synonym: "CyaA" EXACT []
+
+[Term]
+id: VIRO:0000101
+name: dermonecrotic toxin
+namespace: virulence_ontology
+def: "Dermonecrotic toxin (Dnt) from Bordetella bronchiseptica is an A-B type toxin composed of N-terminal receptor-binding (B) domain and a C-terminal enzymatically active (A) domain.  Dnt is a Dermonecrosis-inducing toxin stimulates the assembly of actin stress fibers and focal adhesions by deamidating or polyaminating small GTPase Rho." [PMID:21204952]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000102
+name: pertussis toxin
+namespace: virulence_ontology
+def: "pertussis toxin (Ptx) from Bordetella pertussis is a member of the A-B bacterial toxin superfamily, Ptx is a hexameric protein comprising five distinct subunits, designated S1-S5 arranged in an A-B structure. The A protomer, consisting of the enzymatically active S1 subunit. The B oligomer, formed by the remaining S2-S5 subunits. The B oligomer binds to eukaryotic cell membranes and dramatically increases the efficiency with which the S1 subunit gains entry into host cells." [PMID:21740523]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:1PRT
+
+[Term]
+id: VIRO:0000103
+name: pertussis toxin subunit 1
+namespace: virulence_ontology
+def: "The S1 subunit of pertussis toxin is the enzymatically active subunit and is the largest of the 5 subunits." [PMID:21740523]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000102 ! pertussis toxin
+
+[Term]
+id: VIRO:0000104
+name: pertussis toxin subunit 2
+namespace: virulence_ontology
+def: "Subunits S2 to S5 of pertussis toxin constitute a heteromultimeric complex referred to as the B oligomer, responsible for the binding of the toxin to its receptors on the surface of the target cells." [PMID:21740523]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000102 ! pertussis toxin
+
+[Term]
+id: VIRO:0000105
+name: pertussis toxin subunit 3
+namespace: virulence_ontology
+def: "Subunits S2 to S5 of pertussis toxin constitute a heteromultimeric complex referred to as the B oligomer, responsible for the binding of the toxin to its receptors on the surface of the target cells." [PMID:21740523]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000102 ! pertussis toxin
+
+[Term]
+id: VIRO:0000106
+name: pertussis toxin subunit 4
+namespace: virulence_ontology
+def: "Subunits S2 to S5 of pertussis toxin constitute a heteromultimeric complex referred to as the B oligomer, responsible for the binding of the toxin to its receptors on the surface of the target cells." [PMID:21740523]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000102 ! pertussis toxin
+
+[Term]
+id: VIRO:0000107
+name: pertussis toxin subunit 5
+namespace: virulence_ontology
+def: "Subunits S2 to S5 of pertussis toxin constitute a heteromultimeric complex referred to as the B oligomer, responsible for the binding of the toxin to its receptors on the surface of the target cells." [PMID:21740523]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000102 ! pertussis toxin
+
+[Term]
+id: VIRO:0000108
+name: Campylobacter spp. cytolethal distending toxin
+namespace: virulence_ontology
+def: "The Cytolethal distending toxin (CDT) from Campylobacter spp. induces cell cycle arrest and apoptosis in eukaryotic cells" [PMID:15164065]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000109
+name: CdtA
+namespace: virulence_ontology
+def: "The cytolethal distending toxin subunits CdtA and CdtC associate with the nuclease CdtB to form a ternary complex that translocates CdtB into the host cell, where it acts as a genotoxin by creating DNA lesions" [PMID:15164065]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000108 ! Campylobacter spp. cytolethal distending toxin
+
+[Term]
+id: VIRO:0000110
+name: CdtB
+namespace: virulence_ontology
+def: "The cytolethal distending toxin subunits CdtA and CdtC associate with the nuclease CdtB to form a ternary complex that translocates CdtB into the host cell, where it acts as a genotoxin by creating DNA lesions" [PMID:15164065]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000108 ! Campylobacter spp. cytolethal distending toxin
+
+[Term]
+id: VIRO:0000111
+name: CdtC
+namespace: virulence_ontology
+def: "The cytolethal distending toxin subunits CdtA and CdtC associate with the nuclease CdtB to form a ternary complex that translocates CdtB into the host cell, where it acts as a genotoxin by creating DNA lesions" [PMID:15164065]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000108 ! Campylobacter spp. cytolethal distending toxin
+
+[Term]
+id: VIRO:0000112
+name: diphtheria toxin
+namespace: virulence_ontology
+def: "Diphtheria toxin from Corynebacterium diphtheriae acts on and inhibit translation elongation factor 2 (eEF2), thereby blocking its function on the ribosome and inhibiting protein synthesis in the host cell" [PMID:11595641]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:1DTP
+
+[Term]
+id: VIRO:0000113
+name: hemolysin
+namespace: virulence_ontology
+def: "Hemolysin from Escherichia coli is a RTX protein secreted by a type I secretion system. Hemolysin is cytotoxic to many types of cells: erythrocytes, granulocytes, monocytes, endothelial cells and renal epithelial cells" [PMID:12582172]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000114
+name: EAEC heat-stable enterotoxin 1
+namespace: virulence_ontology
+def: "EAEC heat-stable enterotoxin 1 from Enteroaggregative Escherichia coli (EAEC), a toxin implicated in the pathogenesis of EAEC leading to diarrhea" [PMID:12003040]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000115
+name: plasmid-encoded enterotoxin
+namespace: virulence_ontology
+def: "Plasmid-encoded enterotoxin from Enteroaggregative Escherichia coli (EAEC) is a serine protease, leading to cytoskeletal changes and epithelial-cell rounding by cleavage of the cytoskeletal protein spectrin" [PMID:12438392]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000116
+name: Pic
+namespace: virulence_ontology
+def: "Pic from Enteroaggregative Escherichia coli (EAEC) is a multifunctional protein involved in enteric pathogenesis" [PMID:10531204]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000117
+name: shigella enterotoxin 1
+namespace: virulence_ontology
+def: "Shigella enterotoxin 1 from Shigella flexneri 2a is an A-B toxin involved in the pathogenesis of diarrheal illness" [PMID:7769126]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000119
+name: Set1A
+namespace: virulence_ontology
+def: "Shigella enterotoxin 1 from Shigella flexneri 2a is an A-B toxin involved in the pathogenesis of diarrheal illness. Shigella enterotoxin 1 comprises a single 20-kDa catalytic A subunit encoded by the setA gene and five 7-kDa B subunits encoded by the setB gene" [PMID:7769126]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000117 ! shigella enterotoxin 1
+
+[Term]
+id: VIRO:0000120
+name: Set1B
+namespace: virulence_ontology
+def: "Shigella enterotoxin 1 from Shigella flexneri 2a is an A-B toxin involved in the pathogenesis of diarrheal illness. Shigella enterotoxin 1 comprises a single 20-kDa catalytic A subunit encoded by the setA gene and five 7-kDa B subunits encoded by the setB gene." [PMID:7769126]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000117 ! shigella enterotoxin 1
+
+[Term]
+id: VIRO:0000121
+name: shiga toxin 1
+namespace: virulence_ontology
+def: "Shiga toxin are A-B toxins produced by several enteric pathogens, most importantly Shigella dysenteriae (serotype 1 only) and Enterohaemorrhagic Escherichia coli (EHEC). Shiga toxins are important factors in disease pathogenesis and are responsible for the haemolytic uremic syndrome (HUS)." [PMID:14638419]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:1DM0
+
+[Term]
+id: VIRO:0000122
+name: shiga toxin 2
+namespace: virulence_ontology
+def: "Shiga toxin are A-B toxins produced by several enteric pathogens, most importantly Shigella dysenteriae (serotype 1 only) and Enterohaemorrhagic Escherichia coli (EHEC). Shiga toxins are important factors in disease pathogenesis and are responsible for the haemolytic uremic syndrome (HUS)." [PMID:14638419]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000123
+name: Stx1A
+namespace: virulence_ontology
+def: "Shiga toxin are A-B toxins produced by several enteric pathogens, most importantly Shigella dysenteriae (serotype 1 only) and Enterohaemorrhagic Escherichia coli (EHEC). Shiga toxins are important factors in disease pathogenesis and are responsible for the haemolytic uremic syndrome (HUS). Subunit A is the active component of the toxin." []
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000121 ! shiga toxin 1
+
+[Term]
+id: VIRO:0000124
+name: Stx2A
+namespace: virulence_ontology
+def: "Shiga toxin are A-B toxins produced by several enteric pathogens, most importantly Shigella dysenteriae (serotype 1 only) and Enterohaemorrhagic Escherichia coli (EHEC). Shiga toxins are important factors in disease pathogenesis and are responsible for the haemolytic uremic syndrome (HUS). Subunit A is the active component of the toxin." []
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000122 ! shiga toxin 2
+
+[Term]
+id: VIRO:0000125
+name: Stx2B
+namespace: virulence_ontology
+def: "Shiga toxin are A-B toxins produced by several enteric pathogens, most importantly Shigella dysenteriae (serotype 1 only) and Enterohaemorrhagic Escherichia coli (EHEC). Shiga toxins are important factors in disease pathogenesis and are responsible for the haemolytic uremic syndrome (HUS). B subunits form a pentameric structure binding to its cellular receptor." []
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000122 ! shiga toxin 2
+
+[Term]
+id: VIRO:0000126
+name: heat-labile toxin
+namespace: virulence_ontology
+def: "heat-labile toxin from Enterotoxigenic Escherichia coli (ETEC) is an AB toxin that ADP ribosylates and activates adenylate cyclase resulting in ion secretion. This causes cholera-like diarrhea in humans and animals." [PMID:12011463]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:1LTS
+
+[Term]
+id: VIRO:0000127
+name: EltA
+namespace: virulence_ontology
+def: "heat-labile toxin from Enterotoxigenic Escherichia coli (ETEC) is an AB toxin that ADP ribosylates and activates adenylate cyclase resulting in ion secretion. This causes cholera-like diarrhea in humans and animals.The A subunit functions enzymatically as an ADP-ribosyltransferase." []
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000126 ! heat-labile toxin
+
+[Term]
+id: VIRO:0000128
+name: EltB
+namespace: virulence_ontology
+def: "heat-labile toxin from Enterotoxigenic Escherichia coli (ETEC) is an AB toxin that ADP ribosylates and activates adenylate cyclase resulting in ion secretion. This causes cholera-like diarrhea in humans and animals. The B subunit binds ganglioside GM1 in the host cell membrane." []
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000126 ! heat-labile toxin
+
+[Term]
+id: VIRO:0000129
+name: heat-stable toxin
+namespace: virulence_ontology
+def: "Heat-stable toxin from Enterotoxigenic Escherichia coli (ETEC) activates guanylate cyclase resulting in ion secretion, leading to the loss of electrolytes and water from intestinal cells." [PMID:11155118]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:1ETM
+
+[Term]
+id: VIRO:0000130
+name: cytotoxic necrotizing factor 1
+namespace: virulence_ontology
+def: "Cytotoxic necrotizing factor 1 is a toxin expressed by certain uropathogenic and neonatal meningitis-causing strains of E. coli. It induces the formation of actin stress fibers and membrane ruffling, necrosis" [PMID:12437928]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:1HQ0
+
+[Term]
+id: VIRO:0000131
+name: vacuolating cytotoxin A
+namespace: virulence_ontology
+def: "Vacuolating cytotoxin A of Helicobacter pylori is a toxin that induces the formation of vacuoles arising from late endosomal/lysosomal compartments." [PMID:10619843]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000132
+name: Legionella pneumophila RtxA
+namespace: virulence_ontology
+def: "Legionella pneumophila RtxA is a toxin involved in pore formation in host cells" [PMID:11119544]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000133
+name: listeriolysin O
+namespace: virulence_ontology
+def: "Listeriolysin O from Listeria monocytogenes is a toxin that mediates lysis of the primary phagosomes formed after the uptake of extracellular bacteria, and is required for the efficient escape from the double-membrane vacuole that forms upon cell-to-cell spead." [PMID:11901162]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000134
+name: listeriolysin S
+namespace: virulence_ontology
+def: "Listeriolysin S from Listeria monocytogenes is a peptide haemolysin that contributes to the virulence of L. monocytogenes, the pathogen responsible for the disease listeriosis." [PMID:18787690]
+is_a: VIRO:0000023 ! toxin
+synonym: "LLS" EXACT []
+
+[Term]
+id: VIRO:0000135
+name: Mycobacterium tuberculosis phospholipase C
+namespace: virulence_ontology
+def: "Phospholipases C play a role in the pathogenesis of Mycobacterium tuberculosis, the causative agent of tuberculosis. Mycobacterium tuberculosis possesses four genes encoding putative phospholipases C, plcA, plcB, plcC and plcD. However, the contribution of these genes to virulence is unknown." [PMID:12100560]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000136
+name: PlcA
+namespace: virulence_ontology
+def: "Phospholipases C play a role in the pathogenesis of Mycobacterium tuberculosis, the causative agent of tuberculosis. Mycobacterium tuberculosis possesses four genes encoding putative phospholipases C, plcA, plcB, plcC and plcD. However, the contribution of these genes to virulence is unknown." []
+is_a: VIRO:0000135 ! Mycobacterium tuberculosis phospholipase C
+
+[Term]
+id: VIRO:0000137
+name: PlcB
+namespace: virulence_ontology
+def: "Phospholipases C play a role in the pathogenesis of Mycobacterium tuberculosis, the causative agent of tuberculosis. Mycobacterium tuberculosis possesses four genes encoding putative phospholipases C, plcA, plcB, plcC and plcD. However, the contribution of these genes to virulence is unknown." []
+is_a: VIRO:0000135 ! Mycobacterium tuberculosis phospholipase C
+
+[Term]
+id: VIRO:0000138
+name: PlcC
+namespace: virulence_ontology
+def: "Phospholipases C play a role in the pathogenesis of Mycobacterium tuberculosis, the causative agent of tuberculosis. Mycobacterium tuberculosis possesses four genes encoding putative phospholipases C, plcA, plcB, plcC and plcD. However, the contribution of these genes to virulence is unknown." []
+is_a: VIRO:0000135 ! Mycobacterium tuberculosis phospholipase C
+
+[Term]
+id: VIRO:0000139
+name: PlcD
+namespace: virulence_ontology
+def: "Phospholipases C play a role in the pathogenesis of Mycobacterium tuberculosis, the causative agent of tuberculosis. Mycobacterium tuberculosis possesses four genes encoding putative phospholipases C, plcA, plcB, plcC and plcD. However, the contribution of these genes to virulence is unknown." []
+is_a: VIRO:0000135 ! Mycobacterium tuberculosis phospholipase C
+
+[Term]
+id: VIRO:0000140
+name: Community Acquired Respiratory Distress Syndrome toxin
+namespace: virulence_ontology
+def: "CARDS toxin (Community Acquired Respiratory Distress Syndrome toxin) is a ADP-ribosylating and vacuolating cytotoxin from Mycoplasma pneumoniae. CARDS toxin binds to human surfactant protein A and annexin A2 on airway epithelial cells and is internalized, leading to disruption of monolayer integrity and cell death." [PMID:16617115]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:4TLW
+
+[Term]
+id: VIRO:0000141
+name: Salmonella typhi cytolethal distending toxin
+namespace: virulence_ontology
+def: "Salmonella typhi cytolethal distending toxin differs from classic cytolethal distending toxins in which the genes encoding CdtA and CdtC are absent. Normally CdtA and CdtC mediate target cell binding and membrane translocation of CdtB, which then induces DNA damage through its nuclease. CdtB from S. typhi is produced with the pertussis-like toxins PltA and PltB only inside the host cell." [PMID:15070766]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000142
+name: Salmonella plasmid virulence SpvB
+namespace: virulence_ontology
+def: "The spvB gene on the Salmonella virulence plasmid encodes an ADP-ribosylating toxin that modifies actin directly and totally disrupt the cytoskeleton of the cell" [PMID:12860458]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000143
+name: Shigella enterotoxin 2
+namespace: virulence_ontology
+def: "Shigella enterotoxin 2 is a toxin encoded on inv plasmid. It may account for the early diarrheal phase often observed during shigellosis" [PMID:7591128]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000144
+name: Streptococcus beta-haemolysin 
+namespace: virulence_ontology
+def: "Beta-haemolysin from group A Streptococcus and group B Streptococcus is a pore-forming toxin that induces apoptosis of host cells, promotes cellular invasion, and triggers iNOS and cytokine release." [PMID:12564994]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000145
+name: CAMP factor
+namespace: virulence_ontology
+def: "Streptococcus agalactiae CAMP factor is a pore-forming toxin that forms pores in cell membrane by oligomerization. The CAMP factor also binds to the Fc fragments of human IgG and IgM." [PMID:12835325]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000146
+name: accessory cholera enterotoxin
+namespace: virulence_ontology
+def: "Accessory cholera enterotoxin (Ace) is a toxin from Vibrio cholerae, a pathogen that causes the potentially lethal disease cholera through the elaboration of the intestinal secretogen cholera toxin. Accessory cholera enterotoxin produces fluid accumulation when measured using in vitro models" [PMID:8389476]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000147
+name: cholera toxin
+namespace: virulence_ontology
+def: "Cholera toxin from Vibrio cholerae is an AB toxin that causes severe disruption of intestinal cell function, leading to the watery secretory diarrhea characteristic of cholera." [PMID:15189866]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:1S5E
+
+[Term]
+id: VIRO:0000148
+name: CtxA
+namespace: virulence_ontology
+def: "Cholera toxin from Vibrio cholerae is an AB toxin that causes severe disruption of intestinal cell function, leading to the watery secretory diarrhea characteristic of cholera. The A subunit is the active heterodimeric protein subunit." [PMID:7890409]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000147 ! cholera toxin
+
+[Term]
+id: VIRO:0000149
+name: CtxB
+namespace: virulence_ontology
+def: "Cholera toxin from Vibrio cholerae is an AB toxin that causes severe disruption of intestinal cell function, leading to the watery secretory diarrhea characteristic of cholera. The B subunit is the receptor binding subunit." [PMID:7890409]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000147 ! cholera toxin
+
+[Term]
+id: VIRO:0000150
+name: multifunctional autoprocessing RTX toxin
+namespace: virulence_ontology
+def: "Multifunctional autoprocessing RTX toxins (MARTX) are large exotoxins of 350–560 kDa produced by many species of Vibrio. MARTX is capable of inducing cytopathic activities in host cells including actin depolymerization, Rho inactivation, caspase 3/7-dependent apoptosis, and induction of reactive oxygen species." [PMID:15199181]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000151
+name: thermostable direct hemolysin
+namespace: virulence_ontology
+def: "Thermostable direct hemolysin (TDH) from Vibrio parahaemolyticus is a pore-forming toxin that forms pores of ~2nm in diameter on host cell membrane, allowing both water and ions to flow through the membrane. This toxin also exerts a variety of biological activities such as hemolytic activity, cytotoxicity, cardiotoxicity, and enterotoxicity" [PMID:20335168]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000152
+name: TDH-related hemolysin
+namespace: virulence_ontology
+def: "TDH-related hemolysin (TRH) from Vibrio parahaemolyticus is a pore-forming toxin that activates cl- channels resulting in altered ion flux. It is a heat labile toxin and immunologically similar to TDH." [PMID:21291495]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000153
+name: Vibrio cholerae cytolysin
+namespace: virulence_ontology
+def: "Vibrio cholerae cytolysin (VCC) is a pore-forming toxin that acts on the target cells by forming transmembrane oligomeric β-barrel pores, thereby leading to permeabilization of the target cell membranes." [PMID:15948954]
+is_a: VIRO:0000023 ! toxin
+xref: PDB:1XEZ
+
+[Term]
+id: VIRO:0000154
+name: zona occludens toxin
+namespace: virulence_ontology
+def: "Zona occludens toxin (Zot) from Vibrio cholerae is a toxin that has the ability to increase mucosal permeability by reversibly affecting the structure of tight junctions." [PMID:12654806]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000155
+name: cytotoxic necrotizing factor
+namespace: virulence_ontology
+def: "Cytotoxic necrotizing factor (CNFy) from Yersinia pseudotuberculosis is a toxin that modulates inflammatory responses, protects the bacteria from attacks of innate immune effectors and enhances the severity of a Yersinia infection." [PMID:24244167]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000156
+name: YaxAB
+namespace: virulence_ontology
+def: "YaxAB from Yersinia enterocolitica is a pore-forming toxin that mediates cell death occurs via osmotic lysis through the formation of distinct membrane pores" [PMID:24002058]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000157
+name: YaxA
+namespace: virulence_ontology
+def: "YaxAB from Yersinia enterocolitica is a pore-forming toxin that mediates cell death occurs via osmotic lysis through the formation of distinct membrane pores. Both YaxA and YaxB are required for cytotoxic activity." [PMID:24002058]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000156 ! YaxAB
+
+[Term]
+id: VIRO:0000158
+name: YaxB
+namespace: virulence_ontology
+def: "YaxAB from Yersinia enterocolitica is a pore-forming toxin that mediates cell death occurs via osmotic lysis through the formation of distinct membrane pores. Both YaxA and YaxB are required for cytotoxic activity." [PMID:24002058]
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000156 ! YaxAB
+
+[Term]
+id: VIRO:0000159
+name: yersinia murine toxin
+namespace: virulence_ontology
+def: "Yersinia murine toxin (Ymt) is a toxin unique to Yersinia pestis that posess intracellular phospholipase D activity. This appeared to protect Y. pestis from a cytotoxic digestion product of blood plasma in the flea gut." [PMID:11976454]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000160
+name: Yst
+namespace: virulence_ontology
+def: "Yst is a low-molecular-mass, heat-stable enterotoxin, characteristic only of the virulent strains of Yersinia enterocolitica. Yst is important in causing Yersinia-associated diarrhoea" [PMID:2201642]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000161
+name: YstB
+namespace: virulence_ontology
+def: "YstB is a novel subtype of the heat-stable enterotoxin of Yersinia enterocolitica (Yst). Yst is important in causing Yersinia-associated diarrhoea, and YstB may play an important role in the pathogenesis," [PMID:7715452]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000162
+name: subunit of toxin
+namespace: virulence_ontology
+def: "Subunits of toxins poison the host cells and cause tissue damage." []
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000163
+name: ADP-ribosylation
+namespace: virulence_ontology
+def: "ADP-ribosylation is the addition of one or more ADP-ribose moieties to a protein. It is a reversible post-translational modification that is employed by some bacterial toxins to damage the host cell." []
+is_a: VIRO:0000002 ! molecular mechanism of bacterial virulence
+
+[Term]
+id: VIRO:0000164
+name: Stx1B
+namespace: virulence_ontology
+def: "Shiga toxin are A-B toxins produced by several enteric pathogens, most importantly Shigella dysenteriae (serotype 1 only) and Enterohaemorrhagic Escherichia coli (EHEC). Shiga toxins are important factors in disease pathogenesis and are responsible for the haemolytic uremic syndrome (HUS). B subunits form a pentameric structure binding to its cellular receptor." []
+is_a: VIRO:0000162 ! subunit of toxin
+relationship: part_of VIRO:0000121 ! shiga toxin 1
+
+[Term]
+id: VIRO:0000165
+name: YadA
+namespace: virulence_ontology
+def: "Protein encoded by yadA gene found extrachromosomally. Virulence factor of Yersinia enterocolitica." [PMID:21750675, PMID:2833444]
+relationship: participates_in VIRO:0000007 ! invasion
+
+[Term]
+id: VIRO:0000166
+name: InvA
+namespace: virulence_ontology
+def: "Virulence bio of Yersinia enterocolitica." [PMID:21750675, PMID:2833444]
+relationship: participates_in VIRO:0000007 ! invasion
+
+[Term]
+id: VIRO:0000167
+name: Ail
+namespace: virulence_ontology
+def: "Attachment-invasion locus in Yersinia enterocolitica." [PMID:2833444, PMID:21750675]
+is_a: VIRO:0000003 ! adhesion
+synonym: "attachment-invasion locus protein" EXACT []
+
+[Term]
+id: VIRO:0000168
+name: Tse6
+namespace: virulence_ontology
+def: "Tse6 is a T6S integral membrane toxin from Pseudomonas aeruginosa. Tse6 acts on target cells by degrading the universally essential dinucleotides NAD(+) and NADP(+). Described by Whitney et al 2015." [PMID:26456113]
+is_a: VIRO:0000023 ! toxin
+synonym: "type vi secretion exported 6" EXACT []
+
+[Term]
+id: VIRO:0000169
+name: Tse6*
+namespace: virulence_ontology
+def: "Tse6 is a T6S integral membrane toxin from Pseudomonas aeruginosa that acts on target cells by degrading the universally essential dinucleotides NAD(+) and NADP(+). Described by Whitney et al. 2015. Tse6* includes an insertion of the PA14_01130 locus." [PMID:28673999, PMID:26456113]
+is_a: VIRO:0000023 ! toxin
+synonym: "Tse9" EXACT []
+
+[Term]
+id: VIRO:0000170
+name: secretion system
+namespace: virulence_ontology
+def: "Includes secretory systems and molecular nanomachinery deployed by bacteria to secrete bacterial proteins (collectively called virulence factors) into their host eukaryotic or bacterial target cells or into the extracellular milieu" []
+is_a: VIRO:0000002 ! molecular mechanism of bacterial virulence
+
+[Term]
+id: VIRO:0000171
+name: type vi secretion system
+namespace: virulence_ontology
+def: "One of several classes of protein secretion systems widely employed in Gram-negative bacteria, consisting of a nanomachine capable of injecting effector proteins into primarily bacterial cells; also able to secrete effector proteins into eukaryotic cells." [PMID:29522749]
+synonym: "T6SS" EXACT []
+
+[Term]
+id: VIRO:0000172
+name: endotoxin
+namespace: virulence_ontology
+def: "A physical component of a microbial cell structure that is able to produce a cytotoxic effect" [PMID:8376321]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000173
+name: lipid A
+namespace: virulence_ontology
+def: "An immunogenic component of the lipopolysaccharide (LPS) comprised cell wall that coats gram-negative bacteria" [PMID:8376321]
+is_a: VIRO:0000172 ! endotoxin
+
+[Term]
+id: VIRO:0000174
+name: O-antigen
+namespace: virulence_ontology
+def: "The highly variable and immunogenic outermost portion of lipid A consisting of repeating oligosaccharide (O) units" [PMID:23974134]
+is_a: VIRO:0000173 ! lipid A
+synonym: "O-chain" EXACT []
+
+[Term]
+id: VIRO:0000175
+name: exotoxin
+namespace: virulence_ontology
+def: "A chemical agent released by a pathogen in order to ultimately elicit a cytotoxic effect, usually at a distance from the initial site of infection" [PMID:15496775]
+is_a: VIRO:0000023 ! toxin
+
+[Term]
+id: VIRO:0000176
+name: cell-surface exotoxin
+namespace: virulence_ontology
+def: "Exotoxin that elicits a cytotoxic effect by acting on the surface of a cell" [PMID:15496775]
+is_a: VIRO:0000175 ! exotoxin
+synonym: "cell-receptor toxin" EXACT []
+
+[Term]
+id: VIRO:0000177
+name: intracellular exotoxin
+namespace: virulence_ontology
+def: "Exotoxin that elicits a cytotoxic effect by acting from within a cell" [PMID:15496775]
+is_a: VIRO:0000175 ! exotoxin
+synonym: "cytosol toxin" EXACT []
+
+[Typedef]
+id: part_of
+name: part_of
+xref: RO:part_of
+
+[Typedef]
+id: participates_in
+name: participates_in
+xref: RO:participates_in
+
+[Typedef]
+id: is_a
+name: is_a
+xref: RO:is_a
+
