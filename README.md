@@ -1,6 +1,6 @@
 # VIRO
 
-CARD's draft Virulence Ontology (VIRO) describing bacterial virulence.
+The Virulence Ontology describes bacterial virulence resistance genes, their products, mechanisms, targets, and associated phenotypes. It is integrated with the Comprehensive Antibiotic Resistance Database (https://card.mcmaster.ca), a curated resource containing high quality reference data on the molecular basis of antimicrobial resistance.
 
 ## License
 
