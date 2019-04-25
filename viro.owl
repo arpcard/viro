@@ -11,7 +11,7 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/virulence_ontology.owl">
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:default-namespace>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cv2obo</oboInOwl:auto-generated-by>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11:02:2019 14:56</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25:04:2019 14:51</oboInOwl:date>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARD</oboInOwl:saved-by>
     </owl:Ontology>
@@ -1439,7 +1439,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000069"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staphylococcal enterotoxin B is a member of a family of toxins known as superantigens that activate a large number of T-cells (up to 20%) by cross-linking MHC class II molecules with T-cell receptors in a Vbeta-restricted fashion. </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staphylococcal enterotoxin B is a member of a family of toxins known as superantigens that activate a large number of T-cells (up to 20%) by cross-linking MHC class II molecules with T-cell receptors in a Vbeta-restricted fashion.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDB:3SEB</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000071</oboInOwl:id>
@@ -1448,7 +1448,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000071"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staphylococcal enterotoxin B is a member of a family of toxins known as superantigens that activate a large number of T-cells (up to 20%) by cross-linking MHC class II molecules with T-cell receptors in a Vbeta-restricted fashion. </owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staphylococcal enterotoxin B is a member of a family of toxins known as superantigens that activate a large number of T-cells (up to 20%) by cross-linking MHC class II molecules with T-cell receptors in a Vbeta-restricted fashion.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9514739</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1829,6 +1829,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <!-- http://purl.obolibrary.org/obo/VIRO_0000091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000704"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytotoxin K from Bacillus cereus belongs to the family of oligomeric β-barrel pore-forming toxins. Cytotoxin K may be responsible for a disease that is similar to, although not as severe as, the necrotic enteritis caused by the beta-toxin of C. perfringens type C</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
@@ -1847,6 +1848,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <!-- http://purl.obolibrary.org/obo/VIRO_0000092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000704"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemolysin BL (HBL) is a well-characterized Bacillus cereus toxin composed of three components (B, L1, and L2) that together possess hemolytic, cytotoxic, dermonecrotic, and vascular permeability activities.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
@@ -1937,6 +1939,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <!-- http://purl.obolibrary.org/obo/VIRO_0000096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000704"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonhemolytic enterotoxin (Nhe) from Bacillus cereus is a tripartite pore-forming toxin that require the combined action of the three proteins a cytolytic protein NheA, and two binding components NheB and NheC. Nhe possess hemolytic, cytotoxic, dermonecrotic, and vascular permeability activities.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhe</oboInOwl:hasExactSynonym>
@@ -2900,6 +2903,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <!-- http://purl.obolibrary.org/obo/VIRO_0000146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000454"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accessory cholera enterotoxin (Ace) is a toxin from Vibrio cholerae, a pathogen that causes the potentially lethal disease cholera through the elaboration of the intestinal secretogen cholera toxin. Accessory cholera enterotoxin produces fluid accumulation when measured using in vitro models</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
@@ -2920,7 +2924,8 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000183"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000448"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000454"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000761"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000780"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholera toxin (CtxAB) from Vibrio cholerae is an AB toxin that causes severe disruption of intestinal cell function, leading to the watery secretory diarrhea characteristic of cholera.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDB:1S5E</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT</oboInOwl:hasExactSynonym>
@@ -2942,6 +2947,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000162"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO#_part_of"/>
@@ -2966,6 +2972,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000162"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO#_part_of"/>
@@ -3009,6 +3016,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <!-- http://purl.obolibrary.org/obo/VIRO_0000152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000190"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000462"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TDH-related hemolysin (TRH) from Vibrio parahaemolyticus is a pore-forming toxin that activates cl- channels resulting in altered ion flux. It is a heat labile toxin and immunologically similar to TDH.</obo:IAO_0000115>
@@ -3110,6 +3118,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <!-- http://purl.obolibrary.org/obo/VIRO_0000156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000188"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000408"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YaxAB from Yersinia enterocolitica is a pore-forming toxin that mediates cell death occurs via osmotic lysis through the formation of distinct membrane pores</obo:IAO_0000115>
@@ -3130,6 +3139,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000157">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000162"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000188"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000408"/>
         <rdfs:subClassOf>
@@ -3156,6 +3166,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000158">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000162"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000188"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3180,6 +3191,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <!-- http://purl.obolibrary.org/obo/VIRO_0000159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000406"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yersinia murine toxin (Ymt) is a toxin unique to Yersinia pestis that posess intracellular phospholipase D activity. This appeared to protect Y. pestis from a cytotoxic digestion product of blood plasma in the flea gut.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
@@ -3217,6 +3229,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <!-- http://purl.obolibrary.org/obo/VIRO_0000161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000408"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YstB is a novel subtype of the heat-stable enterotoxin of Yersinia enterocolitica (Yst). Yst is important in causing Yersinia-associated diarrhoea, and YstB may play an important role in the pathogenesis,</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
@@ -3951,26 +3964,6 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000212</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibrin-binding</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VIRO_0000213 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000213">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000199"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C. difficile gram-positive type IV pili.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDB:4IXJ_A</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDB:4IXJ_B</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000213</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PilJ</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000213"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C. difficile gram-positive type IV pili.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25599642</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -5480,6 +5473,8 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
     <!-- http://purl.obolibrary.org/obo/VIRO_0000343 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000334"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000656"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phospholipase D from Rickettsia rickettsii</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000343</oboInOwl:id>
@@ -7061,25 +7056,6 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VIRO_0000444 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000444">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000275"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sfmD of Escherichia coli str. K-12 substrain MG1655</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000444</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sfmD of Escherichia coli str. K-12 substrain MG1655</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000444"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sfmD of Escherichia coli str. K-12 substrain MG1655</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18063717</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2168650</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VIRO_0000445 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000445">
@@ -7186,6 +7162,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
     <!-- http://purl.obolibrary.org/obo/VIRO_0000455 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000455">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000454"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accessory cholera enterotoxin (Ace) secreted by Vibrio cholerae strains. Ace activates chloride channels stimulating chloride/bicarbonate transport that augments fluid secretion resulting in diarrhea.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accessory cholera enterotoxin</oboInOwl:hasExactSynonym>
@@ -7298,6 +7275,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000461">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000454"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rtxA gene codes for a multifunctional-autoprocessing repeats-in-toxin (MARTX) toxin in various species of Vibrio. This MARTX toxin manifests itself into a delivery system for effectors which exert their individual toxic effects on host cells depending on the type. As such the toxicity of rtxA is to enable other toxic effectors</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
@@ -7359,6 +7337,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
     <!-- http://purl.obolibrary.org/obo/VIRO_0000465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000465">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000190"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000448"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000462"/>
@@ -7438,6 +7417,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
     <!-- http://purl.obolibrary.org/obo/VIRO_0000469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000469">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000190"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000448"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000462"/>
@@ -11680,30 +11660,6 @@ Predicted to encode a putative sigma factor responsible for the transcription of
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VIRO_0000722 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000722">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000757"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO#_part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000721"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InsB is a component of the CS4 pili.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000722</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InsB</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000722"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InsB is a component of the CS4 pili.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12595452</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VIRO_0000723 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000723">
@@ -12861,6 +12817,24 @@ Predicted to encode a putative sigma factor responsible for the transcription of
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EhxA is an enterohemolysin.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27542930</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000780">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000018"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toxins that participate in adp-ribosylation in host cell</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000780</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP-ribosylating toxins</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000780"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toxins that participate in adp-ribosylation in host cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27316913</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
 
