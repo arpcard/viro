@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/virulence_ontology.owl#"
      xml:base="http://purl.obolibrary.org/obo/virulence_ontology.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/virulence_ontology.owl">
-        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:default-namespace>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23:10:2019 11:31</oboInOwl:date>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cv2obo</oboInOwl:auto-generated-by>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02:03:2020 09:29</oboInOwl:date>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARD</oboInOwl:saved-by>
     </owl:Ontology>
@@ -815,8 +815,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000228"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toxin produced by Staphylococcus aureus. 
-Upon binding the cell-surface, seven monomers assemble and form a homoheptamer beta-barrel which matures and inserts itself into the membrane of the cell forming a transmembrane channel. Allows the flow of molecules smaller than 2kD, including ions such as K+ and Ca2+ which often lead to cell lysis.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toxin produced by Staphylococcus aureus. Upon binding the cell-surface, seven monomers assemble and form a homoheptamer beta-barrel which matures and inserts itself into the membrane of the cell forming a transmembrane channel. Allows the flow of molecules smaller than 2kD, including ions such as K+ and Ca2+ which often lead to cell lysis.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDB:7AHL</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000044</oboInOwl:id>
@@ -825,8 +824,7 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000044"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toxin produced by Staphylococcus aureus. 
-Upon binding the cell-surface, seven monomers assemble and form a homoheptamer beta-barrel which matures and inserts itself into the membrane of the cell forming a transmembrane channel. Allows the flow of molecules smaller than 2kD, including ions such as K+ and Ca2+ which often lead to cell lysis.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toxin produced by Staphylococcus aureus. Upon binding the cell-surface, seven monomers assemble and form a homoheptamer beta-barrel which matures and inserts itself into the membrane of the cell forming a transmembrane channel. Allows the flow of molecules smaller than 2kD, including ions such as K+ and Ca2+ which often lead to cell lysis.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21926978</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22919604</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -3592,10 +3590,8 @@ Upon binding the cell-surface, seven monomers assemble and form a homoheptamer b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000184"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000336"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of pore-forming toxins for which the secondary structure consists of alpha helices.
-General mechanism involves the membrane attachment of monomers from which alpha helices are then extracted and inserted into the membrane</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of pore-forming toxins for which the secondary structure consists of alpha-helices. The general mechanism involves the membrane attachment of monomers from which alpha-helices are then extracted and inserted into the membrane.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha PFT</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">α-PFT</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000185</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha pore-forming toxin</rdfs:label>
@@ -3603,8 +3599,7 @@ General mechanism involves the membrane attachment of monomers from which alpha 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000185"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of pore-forming toxins for which the secondary structure consists of alpha helices.
-General mechanism involves the membrane attachment of monomers from which alpha helices are then extracted and inserted into the membrane</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of pore-forming toxins for which the secondary structure consists of alpha-helices. The general mechanism involves the membrane attachment of monomers from which alpha-helices are then extracted and inserted into the membrane.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26639780</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3614,8 +3609,7 @@ General mechanism involves the membrane attachment of monomers from which alpha 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000184"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of pore-forming toxins for which the secondary structure consists of beta sheets.
-The general mechanism involves the attachment of protomer-extracted pre-stem loops to the membrane where they combine to form a beta-barrel (β-barrel)</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of pore-forming toxins for which the secondary structure consists of beta sheets. The general mechanism involves the attachment of protomer-extracted pre-stem loops to the membrane where they combine to form a beta-barrel (β-barrel)</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta PFT</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">β-PFT</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
@@ -3625,8 +3619,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000186"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of pore-forming toxins for which the secondary structure consists of beta sheets.
-The general mechanism involves the attachment of protomer-extracted pre-stem loops to the membrane where they combine to form a beta-barrel (β-barrel)</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of pore-forming toxins for which the secondary structure consists of beta sheets. The general mechanism involves the attachment of protomer-extracted pre-stem loops to the membrane where they combine to form a beta-barrel (β-barrel)</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26639780</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3654,7 +3647,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000185"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of alpha pore-forming toxins. Commonly characterized by the presence of a five-helix bundle motif (5HB) which consists of  α1, α2, α3, α6, and α7 helices.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of alpha pore-forming toxins. Commonly characterized by the presence of a five-helix bundle motif (5HB) which consists of  a1, a2, a3, a6, and a7 helices.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000188</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClyA toxins</rdfs:label>
@@ -3662,7 +3655,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000188"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of alpha pore-forming toxins. Commonly characterized by the presence of a five-helix bundle motif (5HB) which consists of  α1, α2, α3, α6, and α7 helices.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of alpha pore-forming toxins. Commonly characterized by the presence of a five-helix bundle motif (5HB) which consists of  a1, a2, a3, a6, and a7 helices.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30142951</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4278,7 +4271,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000251">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000019"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chaperone-Usher pili use the chaperone-usher pathway to assemble their pili. These pili can be classified phylogenetically based on their usher protein sequence. There are six phylogenetic clades, including α-, β-, γ-, κ-, π-, and σ-fimbriae. The α-clade contains pili from the alternate chaperone-usher pili (Class 5 fimbriae). The β-clade fimbriae are previously classified members of the fimbrial usher protein (FUP) cluster 7. The γ-clade is subdivided into four clades. The γ1-clade consists of type I fimbriae-like pili. The γ2-clade consists of FUP cluster 2 adhesins. The γ3-clade consists of FGL (long F1–G1 loop afimbrial) adhesins. The γ4-clade are found in the FUP family 10. The κ-clade encodes flexible fimbriae, and contains proteins that assemble the F4, F5, and F8 fimbrial antigen. The π-clade include the P pilus and other similar pili. The σ-clade contains archaic chaperone-usher systems.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chaperone-Usher pili use the chaperone-usher pathway to assemble their pili. These pili can be classified phylogenetically based on their usher protein sequence. There are six phylogenetic clades, including alpha-, beta-, gamma-, kappa, pi-, and sigma-fimbriae. The alpha-clade contains pili from the alternate chaperone-usher pili (Class 5 fimbriae). The beta-clade fimbriae are previously classified members of the fimbrial usher protein (FUP) cluster 7. The gamma-clade is subdivided into four clades: 1) type I fimbriae-like pili; 2) FUP cluster 2 adhesins; 3) FGL (long F1-G1 loop afimbrial) adhesins; and, 4) FUP family 10. The kappa-clade encodes flexible fimbriae, and contains proteins that assemble the F4, F5, and F8 fimbrial antigen. The pi-clade include the P pilus and other similar pili. The sigma-clade contains archaic chaperone-usher systems.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CUP</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000251</oboInOwl:id>
@@ -4287,7 +4280,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000251"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chaperone-Usher pili use the chaperone-usher pathway to assemble their pili. These pili can be classified phylogenetically based on their usher protein sequence. There are six phylogenetic clades, including α-, β-, γ-, κ-, π-, and σ-fimbriae. The α-clade contains pili from the alternate chaperone-usher pili (Class 5 fimbriae). The β-clade fimbriae are previously classified members of the fimbrial usher protein (FUP) cluster 7. The γ-clade is subdivided into four clades. The γ1-clade consists of type I fimbriae-like pili. The γ2-clade consists of FUP cluster 2 adhesins. The γ3-clade consists of FGL (long F1–G1 loop afimbrial) adhesins. The γ4-clade are found in the FUP family 10. The κ-clade encodes flexible fimbriae, and contains proteins that assemble the F4, F5, and F8 fimbrial antigen. The π-clade include the P pilus and other similar pili. The σ-clade contains archaic chaperone-usher systems.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chaperone-Usher pili use the chaperone-usher pathway to assemble their pili. These pili can be classified phylogenetically based on their usher protein sequence. There are six phylogenetic clades, including alpha-, beta-, gamma-, kappa, pi-, and sigma-fimbriae. The alpha-clade contains pili from the alternate chaperone-usher pili (Class 5 fimbriae). The beta-clade fimbriae are previously classified members of the fimbrial usher protein (FUP) cluster 7. The gamma-clade is subdivided into four clades: 1) type I fimbriae-like pili; 2) FUP cluster 2 adhesins; 3) FGL (long F1-G1 loop afimbrial) adhesins; and, 4) FUP family 10. The kappa-clade encodes flexible fimbriae, and contains proteins that assemble the F4, F5, and F8 fimbrial antigen. The pi-clade include the P pilus and other similar pili. The sigma-clade contains archaic chaperone-usher systems.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18063717</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4297,12 +4290,11 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000252">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000251"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The α-clade fimbriae are found in enterotoxigenic Escherichia coli. These fimbriae are similar to colonization factor antigen I (CFA/I). This family consists of CFA/I, CS1, CS2, CS4, CS5, CS14, CS17, CS19, and PCF071 pili. Class 5 fimbriae can be further classified into three distinct groups based on phylogenetic relationships between the adhesin and pilin genes of the fimbriae.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The alpha-clade fimbriae are found in enterotoxigenic Escherichia coli. These fimbriae are similar to colonization factor antigen I (CFA/I). This family consists of CFA/I, CS1, CS2, CS4, CS5, CS14, CS17, CS19, and PCF071 pili. Class 5 fimbriae can be further classified into three distinct groups based on phylogenetic relationships between the adhesin and pilin genes of the fimbriae.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class 5 fimbriae</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha clade fimbriae</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternate chaperone-usher</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonization factor antigen I (CFA/I)-like fimbriae</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">α-fimbriae</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000252</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-fimbriae</rdfs:label>
@@ -4310,7 +4302,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000252"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The α-clade fimbriae are found in enterotoxigenic Escherichia coli. These fimbriae are similar to colonization factor antigen I (CFA/I). This family consists of CFA/I, CS1, CS2, CS4, CS5, CS14, CS17, CS19, and PCF071 pili. Class 5 fimbriae can be further classified into three distinct groups based on phylogenetic relationships between the adhesin and pilin genes of the fimbriae.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The alpha-clade fimbriae are found in enterotoxigenic Escherichia coli. These fimbriae are similar to colonization factor antigen I (CFA/I). This family consists of CFA/I, CS1, CS2, CS4, CS5, CS14, CS17, CS19, and PCF071 pili. Class 5 fimbriae can be further classified into three distinct groups based on phylogenetic relationships between the adhesin and pilin genes of the fimbriae.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18063717</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22215679</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -6408,7 +6400,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000401">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000395"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An integration of both structures to that of hydroxymates and catecholates results in a ‘mixed-type’ of siderophores.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An integration of both structures to that of hydroxymates and catecholates results in a mixed-type of siderophores.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000401</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed-type siderophore</rdfs:label>
@@ -7356,7 +7348,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000467">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000466"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GspB mediates binding of this organism to human platelets via its interaction with sialyl-T antigen on the receptor GPIbα. This interaction appears to be a major virulence determinant in the pathogenesis of infective endocarditis.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GspB mediates binding of this organism to human platelets via its interaction with sialyl-T antigen on the receptor GPIb-alpha. This interaction appears to be a major virulence determinant in the pathogenesis of infective endocarditis.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000467</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GspB</rdfs:label>
@@ -7364,7 +7356,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000467"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GspB mediates binding of this organism to human platelets via its interaction with sialyl-T antigen on the receptor GPIbα. This interaction appears to be a major virulence determinant in the pathogenesis of infective endocarditis.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GspB mediates binding of this organism to human platelets via its interaction with sialyl-T antigen on the receptor GPIb-alpha. This interaction appears to be a major virulence determinant in the pathogenesis of infective endocarditis.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21765814</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30514759</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -8193,9 +8185,7 @@ The general mechanism involves the attachment of protomer-extracted pre-stem loo
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000239"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000307"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000503"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The principal activities of pneumolysin have been viewed as the capacity to induce pores in cholesterol rich membranes, which equates with hemolytic activity, and the ability to activate complement, both of which play a role in virulence in an animal model of pneumonia. 
-
-Its effects on the human body include the following: Central nervous system: endothelial cell detachment and apoptosis, inflammation in the sub-arachnoid space, apoptosis of hippocampal neurones and microglia, ciliary dysfunction of brain ependymal cells__Inner ear: reduces the amplitude of action potential response to sound, morphological changes to hair cells of the organ of Corti__Lymphoid tissue: T-cell and dendrite cell apoptosis__Lower respiratory tract: cytotoxicity to bronchial and alveolar epithelium, cytotoxicity to endothelial cells leading to alveolar edema and hemorrhage, alveolar macrophage depletion, inactivation of anti-proteases, release of superoxide and serine proteases by neutrophils, recruitment of neutrophils, macrophages, and T-cells, upregulation of cytokines/chemokines (IL-8, MIP-2, IL-6), stimulation of NO, TNF-alpha, and IL-6 production of macrophages, host mediated macrophage apoptosis, target for antibodies that modulate disease__Eye: increase in inflammatory cell recruitment in cornea and vitreous fluid__Upper respiratory tract: epithelial cell injury, impaired ciliary function, stimulates TLR4 dependent host-mediated apoptosis, up regulation of MUC5A mucin, CD4 T-cells responses to pneumolysin contribute to clearance of colonization</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The principal activities of pneumolysin have been viewed as the capacity to induce pores in cholesterol rich membranes, which equates with hemolytic activity, and the ability to activate complement, both of which play a role in virulence in an animal model of pneumonia. Its effects on the human body include the following: Central nervous system: endothelial cell detachment and apoptosis, inflammation in the sub-arachnoid space, apoptosis of hippocampal neurones and microglia, ciliary dysfunction of brain ependymal cells. Inner ear: reduces the amplitude of action potential response to sound, morphological changes to hair cells of the organ of Corti. Lymphoid tissue: T-cell and dendrite cell apoptosis. Lower respiratory tract: cytotoxicity to bronchial and alveolar epithelium, cytotoxicity to endothelial cells leading to alveolar edema and hemorrhage, alveolar macrophage depletion, inactivation of anti-proteases, release of superoxide and serine proteases by neutrophils, recruitment of neutrophils, macrophages, and T-cells, upregulation of cytokines/chemokines (IL-8, MIP-2, IL-6), stimulation of NO, TNF-alpha, and IL-6 production of macrophages, host mediated macrophage apoptosis, target for antibodies that modulate disease. Eye: increase in inflammatory cell recruitment in cornea and vitreous fluid. Upper respiratory tract: epithelial cell injury, impaired ciliary function, stimulates TLR4 dependent host-mediated apoptosis, up regulation of MUC5A mucin, CD4 T-cells responses to pneumolysin contribute to clearance of colonization</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000508</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pneumolysin</rdfs:label>
@@ -8203,9 +8193,7 @@ Its effects on the human body include the following: Central nervous system: end
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000508"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The principal activities of pneumolysin have been viewed as the capacity to induce pores in cholesterol rich membranes, which equates with hemolytic activity, and the ability to activate complement, both of which play a role in virulence in an animal model of pneumonia. 
-
-Its effects on the human body include the following: Central nervous system: endothelial cell detachment and apoptosis, inflammation in the sub-arachnoid space, apoptosis of hippocampal neurones and microglia, ciliary dysfunction of brain ependymal cells__Inner ear: reduces the amplitude of action potential response to sound, morphological changes to hair cells of the organ of Corti__Lymphoid tissue: T-cell and dendrite cell apoptosis__Lower respiratory tract: cytotoxicity to bronchial and alveolar epithelium, cytotoxicity to endothelial cells leading to alveolar edema and hemorrhage, alveolar macrophage depletion, inactivation of anti-proteases, release of superoxide and serine proteases by neutrophils, recruitment of neutrophils, macrophages, and T-cells, upregulation of cytokines/chemokines (IL-8, MIP-2, IL-6), stimulation of NO, TNF-alpha, and IL-6 production of macrophages, host mediated macrophage apoptosis, target for antibodies that modulate disease__Eye: increase in inflammatory cell recruitment in cornea and vitreous fluid__Upper respiratory tract: epithelial cell injury, impaired ciliary function, stimulates TLR4 dependent host-mediated apoptosis, up regulation of MUC5A mucin, CD4 T-cells responses to pneumolysin contribute to clearance of colonization</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The principal activities of pneumolysin have been viewed as the capacity to induce pores in cholesterol rich membranes, which equates with hemolytic activity, and the ability to activate complement, both of which play a role in virulence in an animal model of pneumonia. Its effects on the human body include the following: Central nervous system: endothelial cell detachment and apoptosis, inflammation in the sub-arachnoid space, apoptosis of hippocampal neurones and microglia, ciliary dysfunction of brain ependymal cells. Inner ear: reduces the amplitude of action potential response to sound, morphological changes to hair cells of the organ of Corti. Lymphoid tissue: T-cell and dendrite cell apoptosis. Lower respiratory tract: cytotoxicity to bronchial and alveolar epithelium, cytotoxicity to endothelial cells leading to alveolar edema and hemorrhage, alveolar macrophage depletion, inactivation of anti-proteases, release of superoxide and serine proteases by neutrophils, recruitment of neutrophils, macrophages, and T-cells, upregulation of cytokines/chemokines (IL-8, MIP-2, IL-6), stimulation of NO, TNF-alpha, and IL-6 production of macrophages, host mediated macrophage apoptosis, target for antibodies that modulate disease. Eye: increase in inflammatory cell recruitment in cornea and vitreous fluid. Upper respiratory tract: epithelial cell injury, impaired ciliary function, stimulates TLR4 dependent host-mediated apoptosis, up regulation of MUC5A mucin, CD4 T-cells responses to pneumolysin contribute to clearance of colonization</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18781957</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -8663,7 +8651,7 @@ Its effects on the human body include the following: Central nervous system: end
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000540">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000398"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A linear tetrapeptide siderophore possessing two hydroxamate and α‐hydroxycarboxylate with an l-ornithine-d-hydroxyaspartate-l-serine-l-ornithine backbone. Ornibactin (along with pyochelin) is present mostly in Burkholderia spp. under iron-limiting conditions. Production of both siderophores has been correlated with morbidity and mortality in CF patients.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A linear tetrapeptide siderophore possessing two hydroxamate and alpha-hydroxycarboxylate with a 1-ornithine-d-hydroxyaspartate-1-serine-1-ornithine backbone. Ornibactin (along with pyochelin) is present mostly in Burkholderia spp. under iron-limiting conditions. Production of both siderophores has been correlated with morbity and mortality in CD patients.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000540</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ornibactin</rdfs:label>
@@ -8671,7 +8659,7 @@ Its effects on the human body include the following: Central nervous system: end
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000540"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A linear tetrapeptide siderophore possessing two hydroxamate and α‐hydroxycarboxylate with an l-ornithine-d-hydroxyaspartate-l-serine-l-ornithine backbone. Ornibactin (along with pyochelin) is present mostly in Burkholderia spp. under iron-limiting conditions. Production of both siderophores has been correlated with morbidity and mortality in CF patients.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A linear tetrapeptide siderophore possessing two hydroxamate and alpha-hydroxycarboxylate with a 1-ornithine-d-hydroxyaspartate-1-serine-1-ornithine backbone. Ornibactin (along with pyochelin) is present mostly in Burkholderia spp. under iron-limiting conditions. Production of both siderophores has been correlated with morbity and mortality in CD patients.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16672617</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18931103</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -9354,9 +9342,7 @@ Its effects on the human body include the following: Central nervous system: end
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000578">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000540"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edit* The activity of PvdS is modulated by the membrane-anchored regulator FpvR, which in turn interacts with the ferric-pyoverdine receptor, FpvA. PvdS activity is controlled by two overlapping regulatory circuits, one of which involves Fur and the other requiring FpvR
-
-Predicted to encode a putative sigma factor responsible for the transcription of a subset of genes of the Fur regulon</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The activity of PvdS is modulated by the membrane-anchored regulator FpvR, which in turn interacts with the ferric-pyoverdine receptor, FpvA. PvdS activity is controlled by two overlapping regulatory circuits, one of which involves Fur and the other requiring FpvR. pvdS is predicted to encode a sigma factor responsible for the transcription of a subset of genes of the Fur regulon.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000578</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pvdS</rdfs:label>
@@ -9364,9 +9350,7 @@ Predicted to encode a putative sigma factor responsible for the transcription of
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000578"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edit* The activity of PvdS is modulated by the membrane-anchored regulator FpvR, which in turn interacts with the ferric-pyoverdine receptor, FpvA. PvdS activity is controlled by two overlapping regulatory circuits, one of which involves Fur and the other requiring FpvR
-
-Predicted to encode a putative sigma factor responsible for the transcription of a subset of genes of the Fur regulon</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The activity of PvdS is modulated by the membrane-anchored regulator FpvR, which in turn interacts with the ferric-pyoverdine receptor, FpvA. PvdS activity is controlled by two overlapping regulatory circuits, one of which involves Fur and the other requiring FpvR. pvdS is predicted to encode a sigma factor responsible for the transcription of a subset of genes of the Fur regulon.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10692351</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -13029,9 +13013,525 @@ Predicted to encode a putative sigma factor responsible for the transcription of
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000796</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence factor regulator</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000798">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000694"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a species of proteobacteria, it is a member of the Burkholderia cepacia complex (Bcc). This particular strain is highly drug-resistant and found mostly in immunocompromised patients.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000798</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia dolosa virulence factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000799 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000799">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000798"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genes that code for components involved with the cell membrane</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000799</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Membrane synthesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000800">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000799"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wbaD codes for a glycosyltransferase involved with membrane synthesis in B. dolosa</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000800</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wbaD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000801">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000799"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mtfA codes for a glycosyltransferase that is involved with membrane synthesis in B. dolosa</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000801</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mtfA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000802 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000802">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000799"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lplt codes for a lysophospholipid transporter, part of the major transporter family 1 (MTF1) involved in the membrane synthesis of B. dolosa</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000802</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lplt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000803 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000803">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000799"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lptG codes for an ABC transporter complex LptBFG translocation of lipopolysaccharide (LPS) from the inner membrane to the outer membrane</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000803</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lptG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000804 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000804">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000798"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genes involved with the secretion system component of B. dolosa</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000804</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secretion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000805">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000804"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a large exoprotein involved in heme utilization or adhesion in B. dolosa</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000805</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fhaB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000806">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000804"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gspD codes for a type II secretory pathway component PulD involved with secretion products in B. dolosa</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000806</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gspD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000807">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000798"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia dolosa lacks the genes necessary for nitrogen fixation suggesting that the fix system is utilized for gene regulation of a different nature, as has been seen in other species</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000807</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxygen-related gene regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000808">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000807"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fixL is a putative oxygen sensor; modulates the activity of FixJ, a transcriptional activator of nitrogen fixation fixK gene</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000808</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fixL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000809 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000809">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000807"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia dolosa lacks the genes necessary for nitrogen fixation suggesting that the -fix- system is utilized for gene-regulation of a different nature, as has been seen in other species</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000809</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fixJ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000810 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000810">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000807"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fixK is responsible for nitrogen fixation in B. dolosa</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000810</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fixK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000811">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000812"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative sigma factors play critical roles in the ability of bacteria to adapt to diverse environmental conditions</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000811</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternative sigma factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000812">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000694"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Virulence factors of Burkholderia cenocepacia that may increase risk of antimicrobial resistance</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000812</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia cenocepacia virulence factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000813">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000811"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rpoN gene is responsible for bacterial motility and biofilm formation in B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000813</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rpoN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000814 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000814">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000811"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia cenocepacia may require a periplasmic HtrA protease for growth under thermal and osmotic stress and for survival in vivo</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000814</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">htrA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000815">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000811"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rpoN-dependent transcription usually requires such an interaction with an enhancer binding protein (EBP); rpoN-EBP is the gene the encodes this function</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000815</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rpoN-EBP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000816">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000812"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">some gram-negative bacteria employ quorum-sensing mediated cell-signaling systems that regulate cell density</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000816</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quorum sensing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000817">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000816"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aidA was found to be required for efficient slow killing of C. elegans in B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000817</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aidA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000818 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000818">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000816"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cepR2 contributes to the quorum-sensing regulatory network in two distinct strains of B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000818</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cepR2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000819 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000819">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000816"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a QS signal receptor protein from the pathogenic bacterium Burkholderia cenocepacia, forms a complex with c-di-GMP and a regulator named GtrR; integrates information about the physical and chemical surroundings and the population density to control virulence</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000819</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rpfF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000820">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000816"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ShvR, a LysR regulator, influences colony morphology, virulence, and biofilm formation and regulates the expression of an adjacent 24-kb genomic region encoding 24 genes</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000820</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shvR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000821 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000821">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000816"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atsR inactivation led to increased biofilm production and a hyperadherent phenotype in both abiotic surfaces and lung epithelial cells</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000821</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atsR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000822 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000822">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000812"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">may be required for the maturation arrest of the bacteria-containing membrane vacuoles (BcCV)s and bacterial intra-macrophage survival in B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000822</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secreted proteins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000823 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000823">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000822"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zmpA is found to be responsible for the maturation arrest of the BcCVs and bacterial intra-macrophage survival in B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000823</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zmpA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000824">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000822"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zmpB is involved in the virulence of B. cenocepacia and its expression is regulated by both the CepIR and CciR quorum-sensing systems</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000824</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zmpB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000825">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000812"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bacterial defenses against host-generated reactive oxygen species (ROS) are key to successful host colonization</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000825</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resistance to reactive oxygen species</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000826">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000825"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a secondary catalase/peroxidase required for resistance to hydrogen peroxide under conditions of iron limitation and growth in the presence of carbon sources metabolized through the tricarboxylic acid cycle in B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000826</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">katA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000827">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000825"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">katB is involved with reactive oxygen species detoxification in B. cenocepacia, a factor that is inplicated in virulence</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000827</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">katB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000828">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000825"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodC is responsible for resistance to extracellular superoxide, and a B. cenocepacia sodC mutant is more rapidly killed, in an NADPH oxidase-dependent fashion, by murine macrophages than the wild-type strain</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000828</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000829 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000829">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000825"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a nonheme iron-dependent enzyme that is active as a homotetramer in bacteria and as a homodimer in plants that is implicated in the resistance of reactive oxygen species in B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000829</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hppD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000830 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000830">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000812"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Virulence factors that affect cell envelope permeability in B. cenocepacia species; includes lipopolysaccharide changes</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000830</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell envelope permeability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000831">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000830"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hldA is involved in LPS biosynthesis, affecting cell membrane permeability in B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000831</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hldA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000832">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000830"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the waaC gene is found to be implicated in affecting the lipopolysaccharide profile in B. cenocepacia, affecting the cell envelope permeability</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000832</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waaC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000833">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000812"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophages are essential for immune function and also contribute to maintenance of iron homeostasis in cells; a virulence factor in B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000833</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macrophage survival</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000834 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000834">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000833"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mgtC needed for growth of B. cenocepacia in magnesium-depleted medium and for bacterial survival within murine macrophages</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000834</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mgtC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000835">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000836"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a gene related to the phenylacetic acid (PA) catabolic pathway; implicated in virulence in B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000835</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paaE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000836">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000812"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The phenylacetic acid (PA) catabolic pathway is the central route where catabolism of many aromatic compounds occur</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000836</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenylacetic acid catabolic pathway</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000837">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000836"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paaA plays a role in the phenylacetic acid catabolic pathway, implicated in virulence in B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000837</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paaA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000838">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000811"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates gene activation in response to extracytoplasmic stress; individual components of the extracytoplasmic stress response are also likely to be important for the virulence of B. cenocepacia</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000838</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rpoE2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000839 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000839">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000816"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates production of N-octanoylhomoserine lactone, regulates numerous functions in B. cenocepacia; disruption of the system leads to increased siderophore production and decreased extracellular protease and lipase activities</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000839</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cepRI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIRO_0000840 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIRO_0000840">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIRO_0000830"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acp mutant exhibited an increased ability to form biofilms in vitro, a more hydrophobic cell surface, and reduced ability to colonize and kill the nematode C. elegans, indicating that ACP protein is a virulence determinant for Bcc bacteria</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virulence_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRO:0000840</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acpP2</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
