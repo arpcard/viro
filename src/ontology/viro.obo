@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 04:04:2022 13:57
+date: 25:04:2022 12:08
 saved-by: CARD
 auto-generated-by: cv2obo
 default-namespace: virulence_ontology
@@ -164,7 +164,7 @@ is_a: VIRO:0000788 ! Clostridioides difficile binary toxin subunit
 id: VIRO:0000031
 name: Acm
 namespace: virulence_ontology
-def: "Acm is a collagen adhesin precursor produced by Enterococcus faecium. This adhesin interacts with collagen type I and to a lesser extent with collagen type IV." [PMID:18591238, PMID:12622825, PMID:18591236]
+def: "Acm is a collagen adhesin precursor produced by Enterococcus faecium. This adhesin interacts with collagen type I and to a lesser extent with collagen type IV." [PMID:18591238, PMID:18591236, PMID:12622825]
 is_a: VIRO:0000208 ! collagen type IV-binding
 is_a: VIRO:0000209 ! collagen type I-binding
 is_a: VIRO:0000736 ! MSCRAMM
@@ -284,7 +284,7 @@ xref: PDB:7AHL
 id: VIRO:0000045
 name: Beta-hemolysin
 namespace: virulence_ontology
-def: "Beta-hemolysin is a toxin produced by Staphylococcus aureus that although the name implies it, is actually a poor hemolysin pore-forming toxin. It does not actually form pores but its enzymatic activity hydrolyses sphingomyelin into ceramide and phosphorylcholine. Though still poorly understood, toxicity is like a result due to destabilization of the host plasma membrane and/or accumulation of the hydrolysis by-products" [PMID:22919604, PMID:10627489, PMID:23292775]
+def: "Beta-hemolysin is a toxin produced by Staphylococcus aureus that although the name implies it, is actually a poor hemolysin pore-forming toxin. It does not actually form pores but its enzymatic activity hydrolyses sphingomyelin into ceramide and phosphorylcholine. Though still poorly understood, toxicity is like a result due to destabilization of the host plasma membrane and/or accumulation of the hydrolysis by-products" [PMID:22919604, PMID:23292775, PMID:10627489]
 is_a: VIRO:0000342 ! Sphingomyelinase associated virulence factors
 xref: PDB:3I46
 
@@ -292,7 +292,7 @@ xref: PDB:3I46
 id: VIRO:0000046
 name: Delta-hemolysin
 namespace: virulence_ontology
-def: "Delta-hemolysin is a toxin produced by Staphylococcus aureus that is capable of aggregating together to form pores, as well as destabilizing the plasma membrane by affecting the curvature of the cell, and dissolving the membrane at high concentrations through detergent action" [PMID:10627489, PMID:22919604]
+def: "Delta-hemolysin is a toxin produced by Staphylococcus aureus that is capable of aggregating together to form pores, as well as destabilizing the plasma membrane by affecting the curvature of the cell, and dissolving the membrane at high concentrations through detergent action" [PMID:22919604, PMID:10627489]
 is_a: VIRO:0000190 ! Hemolysin toxins
 
 [Term]
@@ -308,7 +308,7 @@ synonym: "HlgAB" EXACT []
 id: VIRO:0000048
 name: HlgA
 namespace: virulence_ontology
-def: "HlgA is one of the S components of γ-hemolysin. HlgA may combine with any of the F components (HlgB or LukF-PV) produced by Staphylococcus aureus to form an active toxin molecule." [PMID:9804914, PMID:10627489]
+def: "HlgA is one of the S components of γ-hemolysin. HlgA may combine with any of the F components (HlgB or LukF-PV) produced by Staphylococcus aureus to form an active toxin molecule." [PMID:10627489, PMID:9804914]
 is_a: VIRO:0000162 ! toxin subunit
 relationship: part_of VIRO:0000047 ! Gamma-hemolysin (HlgAB)
 
@@ -443,7 +443,7 @@ is_a: VIRO:0000679 ! Enterococcus faecalis factors of virulence
 id: VIRO:0000065
 name: Panton-Valentine Leukocidin
 namespace: virulence_ontology
-def: "Panton-Valentine Leukocidin (PVL) is a pore-forming toxin. Together with γ-hemolysin and other leukocidins such as LukE-LukD, PVL belongs to the family of bicomponent synergohymenotropic toxins. The connection between this toxin and disease remains unclear, however, certain studies have shown that PVL tends to exacerbate the progression of other diseases" [PMID:23551699, PMID:24231517, PMID:28445785]
+def: "Panton-Valentine Leukocidin (PVL) is a pore-forming toxin. Together with γ-hemolysin and other leukocidins such as LukE-LukD, PVL belongs to the family of bicomponent synergohymenotropic toxins. The connection between this toxin and disease remains unclear, however, certain studies have shown that PVL tends to exacerbate the progression of other diseases" [PMID:24231517, PMID:28445785, PMID:23551699]
 is_a: VIRO:0000581 ! Leukocidin toxins
 is_a: VIRO:0000710 ! Staphylococcus-specific virulence
 synonym: "PVL" EXACT []
@@ -1059,7 +1059,7 @@ is_a: VIRO:0000653 ! Shigella dysenteriae factors of virulence
 id: VIRO:0000144
 name: β-haemolysin/cytolysin (Streptococcus agalactiae)
 namespace: virulence_ontology
-def: "Coded by gene CylE. Beta-haemolysin from Streptococcus agalactiae is a pore-forming toxin that induces apoptosis of host cells, promotes cellular invasion, impairs cardiac function, promotes liver failure, induces host inflammatory responses that contribute to neurological sequelae and triggers iNOS and cytokine release." [PMID:12564994, PMID:19257847]
+def: "Coded by gene CylE. Beta-haemolysin from Streptococcus agalactiae is a pore-forming toxin that induces apoptosis of host cells, promotes cellular invasion, impairs cardiac function, promotes liver failure, induces host inflammatory responses that contribute to neurological sequelae and triggers iNOS and cytokine release." [PMID:19257847, PMID:12564994]
 is_a: VIRO:0000176 ! cell-surface affecting exotoxin
 is_a: VIRO:0000502 ! Streptococcus agalactiae factors of virulence
 synonym: "GBS β-h/c" EXACT []
@@ -1125,7 +1125,7 @@ is_a: VIRO:0000462 ! Vibrio parahaemolyticus factors of virulence
 id: VIRO:0000153
 name: Vibrio cholerae cytolysin
 namespace: virulence_ontology
-def: "Coded by the hlyA gene. Vibrio cholerae cytolysin (VCC) is a pore-forming toxin that acts on the target cells by forming transmembrane oligomeric β-barrel pores, thereby leading to permeabilization of the target cell membranes and as a result significantly facilitates intestinal colonization in mouse models" [PMID:15948954, PMID:21502531, PMID:26639780]
+def: "Coded by the hlyA gene. Vibrio cholerae cytolysin (VCC) is a pore-forming toxin that acts on the target cells by forming transmembrane oligomeric β-barrel pores, thereby leading to permeabilization of the target cell membranes and as a result significantly facilitates intestinal colonization in mouse models" [PMID:26639780, PMID:15948954, PMID:21502531]
 is_a: VIRO:0000190 ! Hemolysin toxins
 relationship: stoichiometrically_homologous_to VIRO:0000084 ! aerolysin
 relationship: stoichiometrically_homologous_to VIRO:0000087 ! anthrax toxin
@@ -1138,7 +1138,7 @@ xref: PDB:1XEZ
 id: VIRO:0000154
 name: Zot
 namespace: virulence_ontology
-def: "Zona occludens toxin (Zot) from Vibrio cholerae is a toxin that has the ability to increase mucosal permeability by reversible loosening of the intestinal tight junctions (zonula occludens), rather than an irreversible opening as seen with Clostridioides difficile toxin A" [PMID:12654806, PMID:14675787, PMID:7635964]
+def: "Zona occludens toxin (Zot) from Vibrio cholerae is a toxin that has the ability to increase mucosal permeability by reversible loosening of the intestinal tight junctions (zonula occludens), rather than an irreversible opening as seen with Clostridioides difficile toxin A" [PMID:7635964, PMID:12654806, PMID:14675787]
 is_a: VIRO:0000306 ! Actin-affecting toxins
 is_a: VIRO:0000448 ! Enterotoxins
 is_a: VIRO:0000454 ! Vibrio cholerae factors of virulence
@@ -1193,7 +1193,7 @@ is_a: VIRO:0000406 ! Yersinia pestis factors of virulence
 id: VIRO:0000160
 name: YstA
 namespace: virulence_ontology
-def: "Yersinia stable toxin (Yst) is a low-molecular-mass, heat-stable enterotoxin, characteristic only of the virulent strains of Yersinia enterocolitica. Yst is important in causing Yersinia-associated diarrhea. Studies show that virulent strains of Yersinia enterocolitica possess a degree of mutual exclusivity with respect to its toxins: YstA, YstB, or YstC" [PMID:2201642, PMID:16930279]
+def: "Yersinia stable toxin (Yst) is a low-molecular-mass, heat-stable enterotoxin, characteristic only of the virulent strains of Yersinia enterocolitica. Yst is important in causing Yersinia-associated diarrhea. Studies show that virulent strains of Yersinia enterocolitica possess a degree of mutual exclusivity with respect to its toxins: YstA, YstB, or YstC" [PMID:16930279, PMID:2201642]
 is_a: VIRO:0000408 ! Yersinia enterocolitica factors of virulence
 
 [Term]
@@ -1230,7 +1230,7 @@ relationship: part_of VIRO:0000121 ! shiga toxin 1
 id: VIRO:0000165
 name: YadA
 namespace: virulence_ontology
-def: "Protein encoded by yadA gene found extrachromosomally. Virulence factor of Yersinia enterocolitica." [PMID:11080146, PMID:21750675, PMID:2833444, PMID:12813066]
+def: "Protein encoded by yadA gene found extrachromosomally. Virulence factor of Yersinia enterocolitica." [PMID:12813066, PMID:11080146, PMID:21750675, PMID:2833444]
 is_a: VIRO:0000362 ! autotransporter
 
 [Term]
@@ -1415,28 +1415,28 @@ synonym: "actinoporins" EXACT []
 id: VIRO:0000190
 name: Hemolysin toxins
 namespace: virulence_ontology
-def: "A subclass of beta pore-forming toxins. Characterized by the formation of oligomeric beta-barrel pore complexes which insert themselves into the targeted membrane and serve as a transmembrane channels" [PMID:22919604, PMID:24847020, PMID:24231517]
+def: "A subclass of beta pore-forming toxins. Characterized by the formation of oligomeric beta-barrel pore complexes which insert themselves into the targeted membrane and serve as a transmembrane channels" [PMID:24847020, PMID:22919604, PMID:24231517]
 is_a: VIRO:0000186 ! beta pore-forming toxin
 
 [Term]
 id: VIRO:0000191
 name: iucA [Multispecies: Shigella]
 namespace: virulence_ontology
-def: "Part of the IucA/IucC gene family catalyzing the biosynthesis of the aerobactin (siderophore) in: Shigella flexneri serotype 2a (str. 301); Shigella boydii serotype 4 (str. Sb227); Shigella sonnei (str. Ss046); Shigella flexneri serotype 5 (str. 8401);" [PMID:16822325, PMID:16275786, PMID:12384590]
+def: "Part of the IucA/IucC gene family catalyzing the biosynthesis of the aerobactin (siderophore) in: Shigella flexneri serotype 2a (str. 301); Shigella boydii serotype 4 (str. Sb227); Shigella sonnei (str. Ss046); Shigella flexneri serotype 5 (str. 8401);" [PMID:12384590, PMID:16822325, PMID:16275786]
 is_a: VIRO:0000537 ! iucA siderophore
 
 [Term]
 id: VIRO:0000192
 name: IucC [Shigella]
 namespace: virulence_ontology
-def: "Part of the IucA/IucC gene family catalyzing the biosynthesis of the aerobactin (siderophore) in Shigella flexneri serotype 2a str. 301; Shigella boydii serotype 4 (str. Sb227); Shigella sonnei strain: Ss046; Shigella flexneri 5 strain 8401;" [PMID:12384590, PMID:16822325, PMID:16275786]
+def: "Part of the IucA/IucC gene family catalyzing the biosynthesis of the aerobactin (siderophore) in Shigella flexneri serotype 2a str. 301; Shigella boydii serotype 4 (str. Sb227); Shigella sonnei strain: Ss046; Shigella flexneri 5 strain 8401;" [PMID:16275786, PMID:16822325, PMID:12384590]
 is_a: VIRO:0000539 ! iucC siderophore
 
 [Term]
 id: VIRO:0000194
 name: iucB [Multispecies: Enterobacteriaceae]
 namespace: virulence_ontology
-def: "Catalyzing the biosynthesis of the aerobactin (siderophore) in gram-negative Enterobacteriaceae including: Shigella flexneri serotype 2a str. 301; Shigella boydii strain: Sb227, serotype: 4; Shigella sonnei strain: Ss046; Shigella flexneri 5 strain 8401; Escherichia coli 55989; Escherichia coli O26:H11 (str. 11368); Escherichia coli O111:H (str. 11128);" [PMID:16822325, PMID:16275786, PMID:19165319, PMID:19815525, PMID:12384590]
+def: "Catalyzing the biosynthesis of the aerobactin (siderophore) in gram-negative Enterobacteriaceae including: Shigella flexneri serotype 2a str. 301; Shigella boydii strain: Sb227, serotype: 4; Shigella sonnei strain: Ss046; Shigella flexneri 5 strain 8401; Escherichia coli 55989; Escherichia coli O26:H11 (str. 11368); Escherichia coli O111:H (str. 11128);" [PMID:19165319, PMID:19815525, PMID:16275786, PMID:16822325, PMID:12384590]
 is_a: VIRO:0000538 ! iucB siderophore
 
 [Term]
@@ -1450,7 +1450,7 @@ is_a: VIRO:0000204 ! extracellular matrix-binding
 id: VIRO:0000199
 name: type IV pili
 namespace: virulence_ontology
-def: "Allows for movement and attachment of bacteria." [PMID:10216854, PMID:23204365, PMID:24006467, PMID:7903032]
+def: "Allows for movement and attachment of bacteria." [PMID:24006467, PMID:10216854, PMID:7903032, PMID:23204365]
 is_a: VIRO:0000019 ! adhesin
 
 [Term]
@@ -1538,7 +1538,7 @@ synonym: "T4aP" EXACT []
 id: VIRO:0000217
 name: type IVb pili
 namespace: virulence_ontology
-def: "Type IVb pili" [PMID:23204365, PMID:22361030]
+def: "Type IVb pili" [PMID:22361030, PMID:23204365]
 is_a: VIRO:0000199 ! type IV pili
 synonym: "T4bP" EXACT []
 
@@ -1575,7 +1575,7 @@ is_a: VIRO:0000186 ! beta pore-forming toxin
 id: VIRO:0000239
 name: Cholesterol-dependent cytolysin toxins
 namespace: virulence_ontology
-def: "A subclass of beta pore-forming toxins. Characterized by their binding to particularly cholesterol-rich membranes and forming relatively large transmembrane pores comprised of 35-50 monomers. Produced by over 20 species of gram-positive pathogens" [PMID:18781957, PMID:27179071, PMID:30117093]
+def: "A subclass of beta pore-forming toxins. Characterized by their binding to particularly cholesterol-rich membranes and forming relatively large transmembrane pores comprised of 35-50 monomers. Produced by over 20 species of gram-positive pathogens" [PMID:30117093, PMID:18781957, PMID:27179071]
 is_a: VIRO:0000186 ! beta pore-forming toxin
 synonym: "CDC" EXACT []
 synonym: "CDCs" EXACT []
@@ -1656,7 +1656,7 @@ synonym: "CUP" EXACT []
 id: VIRO:0000252
 name: alpha-fimbriae
 namespace: virulence_ontology
-def: "The alpha-clade fimbriae are found in enterotoxigenic Escherichia coli. These fimbriae are similar to colonization factor antigen I (CFA/I). This family consists of CFA/I, CS1, CS2, CS4, CS5, CS14, CS17, CS19, and PCF071 pili. Class 5 fimbriae can be further classified into three distinct groups based on phylogenetic relationships between the adhesin and pilin genes of the fimbriae." [PMID:22215679, PMID:18063717]
+def: "The alpha-clade fimbriae are found in enterotoxigenic Escherichia coli. These fimbriae are similar to colonization factor antigen I (CFA/I). This family consists of CFA/I, CS1, CS2, CS4, CS5, CS14, CS17, CS19, and PCF071 pili. Class 5 fimbriae can be further classified into three distinct groups based on phylogenetic relationships between the adhesin and pilin genes of the fimbriae." [PMID:18063717, PMID:22215679]
 is_a: VIRO:0000251 ! chaperone-usher pathway pili
 synonym: "Class 5 fimbriae" EXACT []
 synonym: "alpha clade fimbriae" EXACT []
@@ -1806,7 +1806,7 @@ is_a: VIRO:0000181 ! mechanism of secretion
 id: VIRO:0000292
 name: type III secretion system
 namespace: virulence_ontology
-def: "A membrane-embedded nanomachine found in Gram-negative bacteria to translocate proteins, called effectors, from the cytosol to the cytoplasm or plasma membrane of the target cell. The machine is syringe-like in structure and has been thus called the injectisome. Note the difference in spelling from the injectosome in Gram-positive bacterial secretion machinery." [PMID:25202865, PMID:8112310]
+def: "A membrane-embedded nanomachine found in Gram-negative bacteria to translocate proteins, called effectors, from the cytosol to the cytoplasm or plasma membrane of the target cell. The machine is syringe-like in structure and has been thus called the injectisome. Note the difference in spelling from the injectosome in Gram-positive bacterial secretion machinery." [PMID:8112310, PMID:25202865]
 is_a: VIRO:0000302 ! Gram-negative secretion system
 synonym: "Injectisome" EXACT []
 synonym: "T3SS" EXACT []
@@ -1830,7 +1830,7 @@ is_a: VIRO:0000394 ! siderophore receptor
 id: VIRO:0000297
 name: tonB Transport Protein [Escherichia coli]
 namespace: virulence_ontology
-def: "Part of a three inner membrane protein complex consisting of TonB-ExbB-ExbD. Transduces proton motive force of the cytoplasmic membrane to outer membrane transporters (TonB-dependent transporters, TBDTs) which allow for the transportation of siderophores, as well as vitamin B12, nickel complexes and carbohydrates. Present in E. coli strains: UTI89, CFT073, EDL933 (serotype: O157:H7)," [PMID:11206551, PMID:12471157, PMID:16585510]
+def: "Part of a three inner membrane protein complex consisting of TonB-ExbB-ExbD. Transduces proton motive force of the cytoplasmic membrane to outer membrane transporters (TonB-dependent transporters, TBDTs) which allow for the transportation of siderophores, as well as vitamin B12, nickel complexes and carbohydrates. Present in E. coli strains: UTI89, CFT073, EDL933 (serotype: O157:H7)," [PMID:12471157, PMID:11206551, PMID:16585510]
 is_a: VIRO:0000397 ! TonB Transport Protein Family
 
 [Term]
@@ -1876,7 +1876,7 @@ synonym: "T4SS" EXACT []
 id: VIRO:0000304
 name: type V secretion system
 namespace: virulence_ontology
-def: "A protein-secretion pathway employed by Gram-negative bacteria that two several secretion systems: (i) autotransporter protein systems and (ii) two-partner secretion. In general, the secretion system uses the Sec secretion system to cross the inner membrane and a beta barrel protein to cross the outer membrane." [PMID:15590781, PMID:22411980]
+def: "A protein-secretion pathway employed by Gram-negative bacteria that two several secretion systems: (i) autotransporter protein systems and (ii) two-partner secretion. In general, the secretion system uses the Sec secretion system to cross the inner membrane and a beta barrel protein to cross the outer membrane." [PMID:22411980, PMID:15590781]
 is_a: VIRO:0000302 ! Gram-negative secretion system
 synonym: "T5SS" EXACT []
 
@@ -2090,7 +2090,7 @@ is_a: VIRO:0000323 ! neuraminidase
 id: VIRO:0000334
 name: Phospholipase associated virulence factors
 namespace: virulence_ontology
-def: "Phospholipases are lipolytic esterases which cleave glycerophospholipids, the major structural lipids in eukaryotic membranes." [PMID:6404837, PMID:27307578]
+def: "Phospholipases are lipolytic esterases which cleave glycerophospholipids, the major structural lipids in eukaryotic membranes." [PMID:27307578, PMID:6404837]
 is_a: VIRO:0000175 ! exotoxin
 is_a: VIRO:0000396 ! lysis factor
 
@@ -2120,14 +2120,14 @@ is_a: VIRO:0000336 ! hemolysin
 id: VIRO:0000338
 name: YE2407 of hemolysin Yersinia enterocolitica strain 8081
 namespace: virulence_ontology
-def: "YE2407 of hemolysin Yersinia enterocolitica strain 8081" [PMID:17173484, PMID:12834539]
+def: "YE2407 of hemolysin Yersinia enterocolitica strain 8081" [PMID:12834539, PMID:17173484]
 is_a: VIRO:0000336 ! hemolysin
 
 [Term]
 id: VIRO:0000339
 name: YE3454 hemolysin of Yersinia enterocolitica 8081
 namespace: virulence_ontology
-def: "YE3454 hemolysin of Yersinia enterocolitica 8081" [PMID:12834539, PMID:17173484]
+def: "YE3454 hemolysin of Yersinia enterocolitica 8081" [PMID:17173484, PMID:12834539]
 is_a: VIRO:0000336 ! hemolysin
 
 [Term]
@@ -2201,7 +2201,7 @@ synonym: "PLA 1" EXACT []
 id: VIRO:0000349
 name: Tse1
 namespace: virulence_ontology
-def: "A toxic effector protein secreted by the type VI secretion system of Pseudomonas aeruginosa responsible for degrading the peptidoglycan cell wall of Gram-negative bacteria. Tse1 is secreted into the periplasm and cleaves amide bonds in peptidoglycan peptide crosslinks." [PMID:21776080, PMID:20114026]
+def: "A toxic effector protein secreted by the type VI secretion system of Pseudomonas aeruginosa responsible for degrading the peptidoglycan cell wall of Gram-negative bacteria. Tse1 is secreted into the periplasm and cleaves amide bonds in peptidoglycan peptide crosslinks." [PMID:20114026, PMID:21776080]
 is_a: VIRO:0000370 ! Pseudomonas aeruginosa type VI secretion system effector
 is_a: VIRO:0000658 ! Pseudomonas aeruginosa factors of virulence
 synonym: "type VI secretion exported 1" EXACT []
@@ -2220,7 +2220,7 @@ xref: PDB:5AKO
 id: VIRO:0000351
 name: Tse3
 namespace: virulence_ontology
-def: "A toxic effector protein secreted by the type VI secretion system of Pseudomonas aeruginosa responsible for degrading the peptidoglycan cell wall of Gram-negative bacteria. Tse3 is secreted into the periplasm and hydrolyses the bond between the N-acetylmuramic acid (MurNAc) and N-acetylglucosamine (GlcNAc) residues of the glycan backbone." [PMID:20114026, PMID:8654988, PMID:21776080]
+def: "A toxic effector protein secreted by the type VI secretion system of Pseudomonas aeruginosa responsible for degrading the peptidoglycan cell wall of Gram-negative bacteria. Tse3 is secreted into the periplasm and hydrolyses the bond between the N-acetylmuramic acid (MurNAc) and N-acetylglucosamine (GlcNAc) residues of the glycan backbone." [PMID:8654988, PMID:21776080, PMID:20114026]
 is_a: VIRO:0000370 ! Pseudomonas aeruginosa type VI secretion system effector
 is_a: VIRO:0000658 ! Pseudomonas aeruginosa factors of virulence
 synonym: "type vi secretion exported 3" EXACT []
@@ -2230,7 +2230,7 @@ xref: PDB:4N88
 id: VIRO:0000352
 name: Tse4
 namespace: virulence_ontology
-def: "A toxic effector protein secreted by the type vi secretion system of Pseudomonas aeruginosa into the periplasm of Gram-negative bacteria." [PMID:24589350, PMID:15687295]
+def: "A toxic effector protein secreted by the type vi secretion system of Pseudomonas aeruginosa into the periplasm of Gram-negative bacteria." [PMID:15687295, PMID:24589350]
 is_a: VIRO:0000370 ! Pseudomonas aeruginosa type VI secretion system effector
 is_a: VIRO:0000658 ! Pseudomonas aeruginosa factors of virulence
 synonym: "type vi secretion exported 4" EXACT []
@@ -2270,7 +2270,7 @@ synonym: "speG" EXACT []
 id: VIRO:0000357
 name: SPE-H
 namespace: virulence_ontology
-def: "SpeH is an exotoxin type H precursor found in Streptococcus pyogenes. Superantigen toxin utilized by streptococcus pyogenes as a part of its streptococcal pyrogenic exotoxin group that it produces as a part of its pathogenesis" [PMID:24210845, PMID:24820839]
+def: "SpeH is an exotoxin type H precursor found in Streptococcus pyogenes. Superantigen toxin utilized by streptococcus pyogenes as a part of its streptococcal pyrogenic exotoxin group that it produces as a part of its pathogenesis" [PMID:24820839, PMID:24210845]
 is_a: VIRO:0000564 ! Streptococcal pyrogenic exotoxin
 synonym: "speH" EXACT []
 
@@ -2464,7 +2464,7 @@ is_a: VIRO:0000306 ! Actin-affecting toxins
 id: VIRO:0000384
 name: SopE
 namespace: virulence_ontology
-def: "SopeE is a toxin utilized by Salmonella enterica. It is injected by the pathogen through a type III secretion system and exerts its toxic effect by inducing both cytoskeletal and nuclear responses by stimulating GDP/GTP nucleotide exchange in Rho family of small molecular weight GTP-binding proteins. It is also essential for bacterial entry into host cell" [PMID:11440999, PMID:27316913, PMID:9630225]
+def: "SopeE is a toxin utilized by Salmonella enterica. It is injected by the pathogen through a type III secretion system and exerts its toxic effect by inducing both cytoskeletal and nuclear responses by stimulating GDP/GTP nucleotide exchange in Rho family of small molecular weight GTP-binding proteins. It is also essential for bacterial entry into host cell" [PMID:9630225, PMID:27316913, PMID:11440999]
 is_a: VIRO:0000377 ! GEF protein-mimicking toxins
 is_a: VIRO:0000759 ! component of invasion
 relationship: part_of VIRO:0000732 ! Salmonella trigger mechanism invasin
@@ -2474,7 +2474,7 @@ relationship: participates_in VIRO:0000292 ! type III secretion system
 id: VIRO:0000385
 name: SopE2
 namespace: virulence_ontology
-def: "SopeE2 is a toxin utilized by Salmonella enterica. It is injected by the pathogen through a type III secretion system and exerts its toxic effect by inducing both cytoskeletal and nuclear responses by stimulating GDP/GTP nucleotide exchange in Rho family of small molecular weight GTP-binding proteins. It is also essential for bacterial entry into host cell" [PMID:27316913, PMID:11440999, PMID:9630225]
+def: "SopeE2 is a toxin utilized by Salmonella enterica. It is injected by the pathogen through a type III secretion system and exerts its toxic effect by inducing both cytoskeletal and nuclear responses by stimulating GDP/GTP nucleotide exchange in Rho family of small molecular weight GTP-binding proteins. It is also essential for bacterial entry into host cell" [PMID:9630225, PMID:27316913, PMID:11440999]
 is_a: VIRO:0000377 ! GEF protein-mimicking toxins
 is_a: VIRO:0000759 ! component of invasion
 relationship: part_of VIRO:0000732 ! Salmonella trigger mechanism invasin
@@ -2632,7 +2632,7 @@ is_a: VIRO:0000405 ! Yersinia-specific virulence
 id: VIRO:0000412
 name: iucA [Multispecies: Enterobacteriaceae]
 namespace: virulence_ontology
-def: "Part of the IucA/IucC gene family catalyzing the biosynthesis of the aerobactin (siderophore) in: Escherichia coli SMS-3-5; Escherichia coli APEC O1; Escherichia coli S88;" [PMID:18708504, PMID:16885466, PMID:19307211]
+def: "Part of the IucA/IucC gene family catalyzing the biosynthesis of the aerobactin (siderophore) in: Escherichia coli SMS-3-5; Escherichia coli APEC O1; Escherichia coli S88;" [PMID:19307211, PMID:18708504, PMID:16885466]
 is_a: VIRO:0000537 ! iucA siderophore
 
 [Term]
@@ -2667,7 +2667,7 @@ is_a: VIRO:0000417 ! Enteroaggregative Escherichia coli (EAEC) type VI secretion
 id: VIRO:0000420
 name: Pseudomonas aeruginosa TssL1
 namespace: virulence_ontology
-def: "Type six secretion (Tss) L is a protein subunit that forms a membrane complex with TssJ and TssM that localizes at the inner membrane. This inner membrane complex is required to anchor the type VI secretion machinery to the bacterial cell envelope. This TssL is of Pseudomonas aeruginosa." [PMID:20114026, PMID:22411981]
+def: "Type six secretion (Tss) L is a protein subunit that forms a membrane complex with TssJ and TssM that localizes at the inner membrane. This inner membrane complex is required to anchor the type VI secretion machinery to the bacterial cell envelope. This TssL is of Pseudomonas aeruginosa." [PMID:22411981, PMID:20114026]
 is_a: VIRO:0000371 ! Pseudomonas aeruginosa type VI secretion system machinery component
 
 [Term]
@@ -2728,14 +2728,14 @@ is_a: VIRO:0000424 ! P1 family protein
 id: VIRO:0000429
 name: MPN500
 namespace: virulence_ontology
-def: "MPN500 is a P1 family adhesin found in Mycoplasma pneumoniae M129." [PMID:8948633, PMID:10954595]
+def: "MPN500 is a P1 family adhesin found in Mycoplasma pneumoniae M129." [PMID:10954595, PMID:8948633]
 is_a: VIRO:0000424 ! P1 family protein
 
 [Term]
 id: VIRO:0000430
 name: MPN132
 namespace: virulence_ontology
-def: "MPN132 is a P1 family adhesin found in Mycoplasma pneumoniae M129" [PMID:10954595, PMID:8948633]
+def: "MPN132 is a P1 family adhesin found in Mycoplasma pneumoniae M129" [PMID:8948633, PMID:10954595]
 is_a: VIRO:0000424 ! P1 family protein
 
 [Term]
@@ -2749,7 +2749,7 @@ is_a: VIRO:0000424 ! P1 family protein
 id: VIRO:0000432
 name: MPN144
 namespace: virulence_ontology
-def: "MPN144 is a P1 family adhesin found in Mycoplasma pneumoniae M129." [PMID:10954595, PMID:8948633]
+def: "MPN144 is a P1 family adhesin found in Mycoplasma pneumoniae M129." [PMID:8948633, PMID:10954595]
 is_a: VIRO:0000424 ! P1 family protein
 
 [Term]
@@ -2763,7 +2763,7 @@ is_a: VIRO:0000424 ! P1 family protein
 id: VIRO:0000434
 name: MPN202
 namespace: virulence_ontology
-def: "MPN202 is a P1 family adhesin found in Mycoplasma pneumoniae M129." [PMID:8948633, PMID:10954595]
+def: "MPN202 is a P1 family adhesin found in Mycoplasma pneumoniae M129." [PMID:10954595, PMID:8948633]
 is_a: VIRO:0000424 ! P1 family protein
 
 [Term]
@@ -2784,7 +2784,7 @@ is_a: VIRO:0000275 ! gamma-1 fimbriae
 id: VIRO:0000437
 name: sfmH
 namespace: virulence_ontology
-def: "sfmH is a fimbrial adhesin found in Escherichia coli." [PMID:18292092, PMID:20345943, PMID:15845468]
+def: "sfmH is a fimbrial adhesin found in Escherichia coli." [PMID:20345943, PMID:18292092, PMID:15845468]
 is_a: VIRO:0000275 ! gamma-1 fimbriae
 
 [Term]
@@ -2947,7 +2947,7 @@ is_a: VIRO:0000463 ! integral membrane adhesin
 id: VIRO:0000465
 name: TDH
 namespace: virulence_ontology
-def: "Thermostable direct hemolysin (TDH) is found in Vibrio parahaemolyticus. The hemolytic activity of TDH has been well characterized and discussed. TDH forms pores of approximately 2 nm on erythrocyte membranes and causes colloidal osmotic lysis and is therefore considered to function as a pore-forming toxin. The pore formed as a result of this toxin allows for both ions and water to pass through. The altered ion flow is what is responsible for diarrhea in patients affected by this toxin." [PMID:19933828, PMID:25657643]
+def: "Thermostable direct hemolysin (TDH) is found in Vibrio parahaemolyticus. The hemolytic activity of TDH has been well characterized and discussed. TDH forms pores of approximately 2 nm on erythrocyte membranes and causes colloidal osmotic lysis and is therefore considered to function as a pore-forming toxin. The pore formed as a result of this toxin allows for both ions and water to pass through. The altered ion flow is what is responsible for diarrhea in patients affected by this toxin." [PMID:25657643, PMID:19933828]
 is_a: VIRO:0000179 ! mechanism of toxicity
 is_a: VIRO:0000190 ! Hemolysin toxins
 is_a: VIRO:0000448 ! Enterotoxins
@@ -3194,7 +3194,7 @@ is_a: VIRO:0000275 ! gamma-1 fimbriae
 id: VIRO:0000498
 name: Type IVa pili of Pseudomonas aeruginosa
 namespace: virulence_ontology
-def: "A pillus structure of Gram-negative Pseudomonas aeruginosa. Assembly proteins make up the pilus." [PMID:27705815, PMID:29422606, PMID:28143978, PMID:25808785]
+def: "A pillus structure of Gram-negative Pseudomonas aeruginosa. Assembly proteins make up the pilus." [PMID:25808785, PMID:28143978, PMID:27705815, PMID:29422606]
 is_a: VIRO:0000216 ! type IVa pili
 
 [Term]
@@ -3217,7 +3217,7 @@ relationship: part_of VIRO:0000498 ! Type IVa pili of Pseudomonas aeruginosa
 id: VIRO:0000501
 name: Streptococcus-specific virulence
 namespace: virulence_ontology
-def: "The Streptococcus genus is gram-positive and includes over 104 recognized species. Members often colonize human and animal mucous membranes. Typical pathogenic species include S. pneumoniae, with S. pyogenes and S. agalactiae." [PMID:24141975, PMID:25461843]
+def: "The Streptococcus genus is gram-positive and includes over 104 recognized species. Members often colonize human and animal mucous membranes. Typical pathogenic species include S. pneumoniae, with S. pyogenes and S. agalactiae." [PMID:25461843, PMID:24141975]
 is_a: VIRO:0000403 ! organism associated with virulence
 
 [Term]
@@ -3257,7 +3257,7 @@ is_a: VIRO:0000497 ! S pili
 id: VIRO:0000506
 name: Ornithine rhamnolipid
 namespace: virulence_ontology
-def: "Red polyenic pigment produced by the cyl operon involving genes cylX, cylD, cylG, acpC, cylZ, cylA, cylB, cylE, cylF, cylI, cylJ, and cylK. The expression of these genes creates a biosynthetic pathway for the production of this pigment, as well as β-haemolysin/cytolysin with which it is associated . It possess haemolytic activity associated with Streptococcus agalactiae. Functioning very similarly to the β-haemolysin/cytolysin that pathogenic strains of this species also produces." [PMID:24617549, PMID:23712433]
+def: "Red polyenic pigment produced by the cyl operon involving genes cylX, cylD, cylG, acpC, cylZ, cylA, cylB, cylE, cylF, cylI, cylJ, and cylK. The expression of these genes creates a biosynthetic pathway for the production of this pigment, as well as β-haemolysin/cytolysin with which it is associated . It possess haemolytic activity associated with Streptococcus agalactiae. Functioning very similarly to the β-haemolysin/cytolysin that pathogenic strains of this species also produces." [PMID:23712433, PMID:24617549]
 is_a: VIRO:0000502 ! Streptococcus agalactiae factors of virulence
 synonym: "granadaene" EXACT []
 
@@ -3688,7 +3688,7 @@ is_a: VIRO:0000395 ! siderophore
 id: VIRO:0000563
 name: orbE
 namespace: virulence_ontology
-def: "Transport protein for ornibactin siderophore" [PMID:18931103, PMID:16672617]
+def: "Transport protein for ornibactin siderophore" [PMID:16672617, PMID:18931103]
 is_a: VIRO:0000540 ! Ornibactin
 
 [Term]
@@ -3727,7 +3727,7 @@ is_a: VIRO:0000540 ! Ornibactin
 id: VIRO:0000570
 name: orbS
 namespace: virulence_ontology
-def: "Extracytoplasmic function (ECF) sigma factor that targets RNA polymerase to promoters that are required for ornibactin gene expression. The gene is under the control of an iron-regulated σ-70-dependent promoter (targeted for repression by global regulator Fur." [PMID:16672617, PMID:18931103]
+def: "Extracytoplasmic function (ECF) sigma factor that targets RNA polymerase to promoters that are required for ornibactin gene expression. The gene is under the control of an iron-regulated σ-70-dependent promoter (targeted for repression by global regulator Fur." [PMID:18931103, PMID:16672617]
 is_a: VIRO:0000567 ! siderophore promoter
 
 [Term]
@@ -3982,7 +3982,7 @@ is_a: VIRO:0000602 ! siderophore enzyme
 id: VIRO:0000604
 name: Lysine 6-monooxygenase [Multispecies: Enterobacteriaceae]
 namespace: virulence_ontology
-def: "Enzyme that catalyses the hydroxylation of lysine at the N6 position in siderophores" [PMID:19815525, PMID:16461464]
+def: "Enzyme that catalyses the hydroxylation of lysine at the N6 position in siderophores" [PMID:16461464, PMID:19815525]
 is_a: VIRO:0000602 ! siderophore enzyme
 
 [Term]
@@ -4003,7 +4003,7 @@ is_a: VIRO:0000602 ! siderophore enzyme
 id: VIRO:0000607
 name: Anguibactin (plasmid)
 namespace: virulence_ontology
-def: "Anguibactin, a siderophore produced by cells of Vibrio anguillarum, responsible for human illness vibriosis. Synthesized from a plasmid." [PMID:23660776, PMID:13129954]
+def: "Anguibactin, a siderophore produced by cells of Vibrio anguillarum, responsible for human illness vibriosis. Synthesized from a plasmid." [PMID:13129954, PMID:23660776]
 is_a: VIRO:0000401 ! mixed-type siderophore
 
 [Term]
@@ -4024,7 +4024,7 @@ is_a: VIRO:0000394 ! siderophore receptor
 id: VIRO:0000611
 name: fatD
 namespace: virulence_ontology
-def: "ferric anguibactin transport protein in V. anguillarun" [PMID:13129954, PMID:23350649]
+def: "ferric anguibactin transport protein in V. anguillarun" [PMID:23350649, PMID:13129954]
 is_a: VIRO:0000607 ! Anguibactin (plasmid)
 
 [Term]
@@ -4038,14 +4038,14 @@ is_a: VIRO:0000607 ! Anguibactin (plasmid)
 id: VIRO:0000613
 name: fatB
 namespace: virulence_ontology
-def: "Ferric-anguibactin periplasmic binding protein, FatB, transports the ferric-siderophore across the cytoplasmic membrane using the ABC transport system along with the cytoplasmic membrane proteins FatC and FatD." [PMID:13129954, PMID:23350649]
+def: "Ferric-anguibactin periplasmic binding protein, FatB, transports the ferric-siderophore across the cytoplasmic membrane using the ABC transport system along with the cytoplasmic membrane proteins FatC and FatD." [PMID:23350649, PMID:13129954]
 is_a: VIRO:0000607 ! Anguibactin (plasmid)
 
 [Term]
 id: VIRO:0000614
 name: fatC
 namespace: virulence_ontology
-def: "Cytoplasmic membrane protein essential for the transport of ferric-anguibactin." [PMID:23350649, PMID:13129954]
+def: "Cytoplasmic membrane protein essential for the transport of ferric-anguibactin." [PMID:13129954, PMID:23350649]
 is_a: VIRO:0000607 ! Anguibactin (plasmid)
 
 [Term]
@@ -4844,7 +4844,7 @@ relationship: part_of VIRO:0000721 ! CS4 pili
 id: VIRO:0000727
 name: CS1 pilus
 namespace: virulence_ontology
-def: "The CS1 pillus is a structure consisting of several protein components" [PMID:23175654, PMID:8866477, PMID:16352839]
+def: "The CS1 pillus is a structure consisting of several protein components" [PMID:16352839, PMID:23175654, PMID:8866477]
 is_a: VIRO:0000715 ! class 5b pili
 
 [Term]
@@ -4914,7 +4914,7 @@ relationship: part_of VIRO:0000732 ! Salmonella trigger mechanism invasin
 id: VIRO:0000736
 name: MSCRAMM
 namespace: virulence_ontology
-def: "MSCRAMMs are molecules that bind the the extracellular matrix." [PMID:7826020, PMID:24336184]
+def: "MSCRAMMs are molecules that bind the the extracellular matrix." [PMID:24336184, PMID:7826020]
 is_a: VIRO:0000019 ! adhesin
 synonym: "microbial surface components recognizing adhesive matrix molecule" EXACT []
 
@@ -5650,6 +5650,11 @@ def: "acp mutant exhibited an increased ability to form biofilms in vitro, a mor
 is_a: VIRO:0000830 ! Cell envelope permeability
 
 [Typedef]
+id: is_a
+name: is_a
+xref: RO:is_a
+
+[Typedef]
 id: participates_in
 name: participates_in
 xref: RO:participates_in
@@ -5660,17 +5665,12 @@ name: stoichiometrically_homologous_to
 xref: RO:25
 
 [Typedef]
-id: structurally_homologous_to
-name: structurally_homologous_to
-xref: RO:HOM0000006
-
-[Typedef]
-id: is_a
-name: is_a
-xref: RO:is_a
-
-[Typedef]
 id: part_of
 name: part_of
 xref: RO:part_of
+
+[Typedef]
+id: structurally_homologous_to
+name: structurally_homologous_to
+xref: RO:HOM0000006
 
