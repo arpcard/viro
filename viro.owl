@@ -10,7 +10,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/virulence_ontology.owl">
         <oboInOwl:auto-generated-by>cv2obo</oboInOwl:auto-generated-by>
-        <oboInOwl:date>26:08:2024 09:59</oboInOwl:date>
+        <oboInOwl:date>17:12:2024 17:45</oboInOwl:date>
         <oboInOwl:default-namespace>virulence_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by>CARD</oboInOwl:saved-by>
